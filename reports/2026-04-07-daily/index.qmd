@@ -1,0 +1,353 @@
+---
+title: Daily Workload Report — 2026-04-07
+date: 2026-04-07
+cadence: daily
+generated_at: 2026-04-07T16:28:33.361Z
+toc: true
+toc-depth: 3
+format: html
+---
+
+## Summary
+
+As of April 7, 2026, there are **50 STARTED tickets** and **50 PAUSED (blocked) tickets** across all teams. Four active blockers were flagged in team channels today: LLM calls overloading the ingestion pod (Shivral Somani), the Electron app stuck on the loading page (Amrit Raj), CI/CD pipeline builds failing (Mamtha Venkattaramanujam), and Spaces navigation latency (Aniket Agrawal). There are **40 unassigned CRITICAL or HIGH priority TODO tickets** — including 3 CRITICAL PAUSED tickets in ARDRA and DPIP with ETAs overdue by weeks. **Management must act on two things today:** (1) escalate the LLM/ingestion pod blocker which is degrading core infrastructure, and (2) assign owners to the overdue CRITICAL ARDRA tickets (ARDRA-0196, ARDRA-0194) which are 13+ days past ETA.
+
+---
+
+## Team Workload
+
+### Abhinav Srivastava
+**Capacity:** MEDIUM
+
+**Active Tickets:**
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-12102 | Implement full role auto-assignment in user groups | PR Review | — | On track |
+| XYNE-11979 | Push metrics for chat analytics dashboard | PR Review | — | On track |
+
+**Blockers:** None reported.
+
+---
+
+### Amitava Chakrabarti
+**Capacity:** HIGH
+
+**Active Tickets:**
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-12060 | Fix image attachment aspect ratio | PR Review | — | On track |
+
+**Blockers:** None reported.
+
+---
+
+### Aman Patel
+**Capacity:** HIGH
+
+**Active Tickets:**
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-11898 | Group buttons in channel and thread panels | PR Review | — | On track |
+
+**Blockers:** None reported.
+
+---
+
+### Aniket Agrawal
+**Capacity:** MEDIUM
+
+**Active Tickets:**
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| *(Not in STARTED list — no assigned active ticket found)* | | | | |
+
+**Blockers:**
+- Spaces navigation stuck when going back & forward (mentioned in `#xyne-spaces`, Apr 6, 2026). Latency issue affecting all users.
+
+**Notes:** Aniket flagged a channel-wide latency/navigation issue in Spaces on Apr 6. No assigned STARTED ticket found — may be investigating ad-hoc.
+
+---
+
+### Amrit Raj
+**Capacity:** MEDIUM
+
+**Active Tickets:**
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| *(No STARTED ticket explicitly assigned)* | | | | |
+
+**Blockers:**
+- Electron app stuck on loading page (mentioned in `#xyne-spaces`, Apr 7, 2026). App is unusable in this state.
+
+**Notes:** XYNE-8223 "Test ticket for Amrit" is currently PAUSED (ON_JUSPAY stage, ETA Feb 19 — overdue).
+
+---
+
+### Anirudh Naruka
+**Capacity:** HIGH
+
+**Active Tickets:**
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-11592 | Implement Direct Context Addition through Ask AI input box | PR Review | — | On track |
+
+**Blockers:** None reported.
+
+---
+
+### Krishan Saini
+**Capacity:** MEDIUM
+
+**Active Tickets:**
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-12082 | Implement Airborne integration in native app | PR Review | — | On track |
+| XYNE-12072 | Fix Message and Activities usage in native app | PR Review | — | On track |
+
+**Blockers:** None reported.
+
+---
+
+### Mamtha Venkattaramanujam
+**Capacity:** MEDIUM
+
+**Active Tickets:**
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| *(No STARTED ticket explicitly assigned)* | | | | |
+
+**Blockers:**
+- CI/CD pipeline: builds failing at "Evaluate Test Results" and local Docker setup failing — "waiting for read" (mentioned in `#xyne-spaces`, Apr 7, 2026). Not related to code changes.
+
+**Notes:** Build environment issue is blocking testing/deployment workflows.
+
+---
+
+### Manav Chaturvedi
+**Capacity:** HIGH
+
+**Active Tickets:**
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-11915 | Add common component for paginated query UI | PR Review | — | On track |
+
+**Blockers:** None reported.
+
+---
+
+### Mohankumar Malapureddy
+**Capacity:** HIGH
+
+**Active Tickets:**
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-12021 | Add pre-commit hook enforcing migration file presence | PR Review | — | On track |
+
+**Blockers:** None reported.
+
+---
+
+### Navipriya S
+**Capacity:** MEDIUM
+
+**Active Tickets:**
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-11941 | Fix join channel UX issue requiring refresh | PR Review | — | On track |
+| XYNE-11968 | Tickets in Boards taking time to render | QA Testing | — | On track |
+
+**Blockers:** None reported.
+
+---
+
+### Piyush Kesharwani
+**Capacity:** HIGH
+
+**Active Tickets:**
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-11716 | Implement organization and workspace management feature | PR Review | — | On track |
+
+**Blockers:** None reported.
+
+---
+
+### Prakhar Agarwal
+**Capacity:** MEDIUM
+
+**Active Tickets:**
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-12046 | Open Xyne Spaces links in app | PR Review | — | On track |
+| XYNE-11991 | Add request-to-join for ongoing channel calls | PR Review | — | On track |
+
+**Blockers:** None reported.
+
+---
+
+### Prajwal Prasad
+**Capacity:** HIGH
+
+**Active Tickets:**
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-12003 | Implement cross-device session sync for Ask AI | Dev in Progress | — | On track |
+
+**Blockers:** None reported.
+
+---
+
+### Rahul Kumar
+**Capacity:** HIGH
+
+**Active Tickets:**
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-12079 | Integrate expense agent MCP | PR Review | — | On track |
+
+**Blockers:** None reported.
+
+---
+
+### Satvik Batra
+**Capacity:** MEDIUM
+
+**Active Tickets:**
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-12069 | Add notification trail when promoting group DM to channel | PR Review | — | On track |
+| XYNE-12048 | Implement walkthrough feature in Spaces | PR Review | — | On track |
+
+**Blockers:** None reported.
+
+---
+
+### Shailendra Pratap Singh
+**Capacity:** MEDIUM
+
+**Active Tickets:**
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| *(No STARTED ticket explicitly assigned)* | | | | |
+
+**Blockers:**
+- Investigating LLM call overhead on workers: ActivityClassificationWorker, ticketCleanupWorker, proactiveNudge, conversationIngestionWorker — all making LLM calls, causing ~1.5GB heap at peak (mentioned in `#xyne-spaces`, Apr 7, 2026). Proposal to separate AI workers into a dedicated service is being discussed.
+
+---
+
+### Shivral Somani
+**Capacity:** LOW
+
+**Active Tickets:**
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| *(No STARTED ticket explicitly assigned)* | | | | |
+
+**Blockers:**
+- 🚨 **LLM calls blocking ingestion pod** — "This is doing lot of LLM calls blocking ingestion" and "currently pod is stuck on these ai calls" (mentioned in `#xyne-spaces`, Apr 7, 2026, 6:37 AM & 8:39 AM). Pod is stuck; core ingestion pipeline degraded.
+
+**Notes:** This is the highest-severity active blocker today. Resolution path being explored: separate AI workers into their own service to isolate ingestion.
+
+---
+
+### Shubham Dhamija
+**Capacity:** HIGH
+
+**Active Tickets:**
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-11752 | Verify ticket creation feature | Dev in Progress | — | On track |
+
+**Blockers:** None reported.
+
+---
+
+### Siraj Shaik
+**Capacity:** HIGH
+
+**Active Tickets:**
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-12084 | Message BOT | PR Review | — | On track |
+
+**Blockers:** None reported.
+
+---
+
+### Sumant Tirkey
+**Capacity:** HIGH
+
+**Active Tickets:**
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-11836 | Add email source report generation | PR Review | — | On track |
+
+**Blockers:** None reported.
+
+---
+
+## Unassigned Critical Tickets
+
+> ⚠️ These CRITICAL/HIGH priority tickets are in TODO status with no owner. They need assignment today.
+
+| Ticket | Title | Priority | ETA | Notes |
+|--------|-------|----------|-----|-------|
+| ARDRA-0202 | Create Play Store feature graphic | CRITICAL | ~~Mar 26~~ OVERDUE | |
+| ARDRA-0201 | Implement SSOB functionality | CRITICAL | ~~Mar 25~~ OVERDUE | |
+| ARDRA-0200 | Implement filtering for admin actionable items | CRITICAL | ~~Mar 25~~ OVERDUE | |
+| ARDRA-0198 | Build Policy view modal for managers | CRITICAL | ~~Mar 25~~ OVERDUE | |
+| ARDRA-0187 | Web Issues | CRITICAL | ~~Mar 25~~ OVERDUE | |
+| ARDRA-0186 | Edit/Submit Claim Journey | CRITICAL | ~~Mar 25~~ OVERDUE | |
+| ARDRA-0185 | Email Notifications | CRITICAL | ~~Mar 25~~ OVERDUE | |
+| XYNE-12101 | Add subteam field to user profile and table | CRITICAL | — | |
+| GENIUS-0209 | Allow email cc parsing for domain_mid_lookup | CRITICAL | Apr 15, 2026 | |
+| GENIUS-0192 | Dashboard UI Queries | CRITICAL | ~~Apr 1~~ OVERDUE | |
+| DPIP-0005 | Hybrid Incremental | CRITICAL | Apr 14, 2026 | |
+| INFRA-0005 | Deploy SSO login to production | CRITICAL | ~~Feb 26~~ OVERDUE | |
+| INFRA-0001 | Unused EBS volumes cleanup | CRITICAL | ~~Feb 5~~ OVERDUE | |
+| TESTINGPUR-0015 | Expose kafka error metrics in sessionizer internal | CRITICAL | ~~Mar 27~~ OVERDUE | |
+| CARDSTMS-0003 | PIN translation DUKPT is getting complex | CRITICAL | ~~Dec 20~~ OVERDUE | |
+| HYPERSWTIC-0061 | Update terragrunt.hcl files for app modules | CRITICAL | ~~Apr 2~~ OVERDUE | |
+| XYNE-12089 | Fix thread disappearing when opening conversation | HIGH | — | |
+| XYNE-12067 | Add metadata previews for Xyne spaces URLs | HIGH | — | |
+| GENIUS-0213 | Draft for tickets where BQ query is created | HIGH | Apr 16, 2026 | |
+| GENIUS-0212 | BQ query optimization for gateway identifiers | HIGH | Apr 16, 2026 | |
+| GENIUS-0211 | Query Routing failed to fetch the Correct MID | HIGH | Apr 15, 2026 | |
+
+---
+
+## Blockers Needing Escalation
+
+- **Shivral Somani — Ingestion pod stuck on LLM calls** (`#xyne-spaces`, Apr 7): Pod is stuck on AI calls, blocking the full ingestion pipeline. Has been active since at least 6:37 AM today. Recommend escalating to infra/platform lead if not resolved within 2 hours.
+- **Mamtha Venkattaramanujam — CI/CD build failures** (`#xyne-spaces`, Apr 7): Builds failing at "Evaluate Test Results" and Docker startup ("waiting for read"). Not code-related — likely an environment/infra issue. Recommend escalating to DevOps.
+- **ARDRA CRITICAL tickets (ARDRA-0196, ARDRA-0194, + 7 unassigned) — overdue since Mar 25**: These CRITICAL-priority ARDRA tickets have been paused or unassigned for 13+ days past ETA. Recommend assigning an owner and reviewing with the ARDRA project lead immediately.
+- **DPIP-0007 (Feature Dsl) — CRITICAL, PAUSED, overdue since Jan 4**: This ticket has been paused for 3 months past its ETA. Requires immediate clarification on status or cancellation.
+- **INFRA-0001 & INFRA-0005 — CRITICAL, unassigned, overdue since Feb 5 and Feb 26**: Two infrastructure CRITICAL tickets (EBS cleanup, SSO production deploy) remain unassigned and overdue by 5–8 weeks. Recommend escalating to infra team lead.
+
+---
+
+## Capacity Summary
+
+| Person | Active Tickets | Blockers | Capacity |
+|--------|---------------|----------|----------|
+| Abhinav Srivastava | 2 | 0 | MEDIUM |
+| Amitava Chakrabarti | 1 | 0 | HIGH |
+| Aman Patel | 1 | 0 | HIGH |
+| Aniket Agrawal | 0 | 1 | MEDIUM |
+| Amrit Raj | 0 | 1 | MEDIUM |
+| Anirudh Naruka | 1 | 0 | HIGH |
+| Krishan Saini | 2 | 0 | MEDIUM |
+| Mamtha Venkattaramanujam | 0 | 1 | MEDIUM |
+| Manav Chaturvedi | 1 | 0 | HIGH |
+| Mohankumar Malapureddy | 1 | 0 | HIGH |
+| Navipriya S | 2 | 0 | MEDIUM |
+| Piyush Kesharwani | 1 | 0 | HIGH |
+| Prakhar Agarwal | 2 | 0 | MEDIUM |
+| Prajwal Prasad | 1 | 0 | HIGH |
+| Rahul Kumar | 1 | 0 | HIGH |
+| Satvik Batra | 2 | 0 | MEDIUM |
+| Shailendra Pratap Singh | 0 | 1 | MEDIUM |
+| Shivral Somani | 0 | 1 | LOW |
+| Shubham Dhamija | 1 | 0 | HIGH |
+| Siraj Shaik | 1 | 0 | HIGH |
+| Sumant Tirkey | 1 | 0 | HIGH |
