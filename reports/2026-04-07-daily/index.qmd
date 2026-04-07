@@ -2,7 +2,7 @@
 title: Daily Workload Report — 2026-04-07
 date: 2026-04-07
 cadence: daily
-generated_at: 2026-04-07T16:28:33.361Z
+generated_at: 2026-04-07T18:37:30.876Z
 toc: true
 toc-depth: 3
 format: html
@@ -10,7 +10,7 @@ format: html
 
 ## Summary
 
-As of April 7, 2026, there are **50 STARTED tickets** and **50 PAUSED (blocked) tickets** across all teams. Four active blockers were flagged in team channels today: LLM calls overloading the ingestion pod (Shivral Somani), the Electron app stuck on the loading page (Amrit Raj), CI/CD pipeline builds failing (Mamtha Venkattaramanujam), and Spaces navigation latency (Aniket Agrawal). There are **40 unassigned CRITICAL or HIGH priority TODO tickets** — including 3 CRITICAL PAUSED tickets in ARDRA and DPIP with ETAs overdue by weeks. **Management must act on two things today:** (1) escalate the LLM/ingestion pod blocker which is degrading core infrastructure, and (2) assign owners to the overdue CRITICAL ARDRA tickets (ARDRA-0196, ARDRA-0194) which are 13+ days past ETA.
+As of April 7, 2026, there are **176 STARTED tickets** and **50 PAUSED tickets** across all teams. Four active blockers were flagged in team channels today: **LLM calls overloading the ingestion pod** (Shivral Somani), **Electron app stuck on loading page** (Amrit Raj), **CI/CD pipeline builds failing** (Mamtha Venkattaramanujam), and **Spaces navigation latency** (Aniket Agrawal). There are **39 unassigned CRITICAL priority TODO tickets** — including 3 CRITICAL PAUSED tickets in ARDRA and DPIP with ETAs overdue by weeks. **Management must act on two things today:** (1) escalate the LLM/ingestion pod blocker which is degrading core infrastructure, and (2) assign owners to the overdue CRITICAL ARDRA tickets (ARDRA-0196, ARDRA-0194) which are 13+ days past ETA.
 
 ---
 
@@ -30,41 +30,45 @@ As of April 7, 2026, there are **50 STARTED tickets** and **50 PAUSED (blocked) 
 ---
 
 ### Amitava Chakrabarti
-**Capacity:** HIGH
+**Capacity:** MEDIUM
 
 **Active Tickets:**
 | Ticket | Title | Stage | ETA | Status |
 |--------|-------|-------|-----|--------|
+| XYNE-11888 | Add Canvas Versioning | Dev in Progress | — | On track |
 | XYNE-12060 | Fix image attachment aspect ratio | PR Review | — | On track |
+| XYNE-12016 | Add direct DM creation from search bar | PR Review | — | On track |
 
 **Blockers:** None reported.
 
 ---
 
 ### Aman Patel
-**Capacity:** HIGH
+**Capacity:** LOW
 
 **Active Tickets:**
 | Ticket | Title | Stage | ETA | Status |
 |--------|-------|-------|-----|--------|
 | XYNE-11898 | Group buttons in channel and thread panels | PR Review | — | On track |
+| XYNE-7966 | Implement backend for saving user ticket filter preferences | Dev in Progress | — | On track |
+| XYNE-11921 | Fix attachment failure on ticket creation | PR Review | — | On track |
 
 **Blockers:** None reported.
 
 ---
 
 ### Aniket Agrawal
-**Capacity:** MEDIUM
+**Capacity:** HIGH
 
 **Active Tickets:**
 | Ticket | Title | Stage | ETA | Status |
 |--------|-------|-------|-----|--------|
-| *(Not in STARTED list — no assigned active ticket found)* | | | | |
+| *(No STARTED ticket explicitly assigned)* | | | | |
 
 **Blockers:**
 - Spaces navigation stuck when going back & forward (mentioned in `#xyne-spaces`, Apr 6, 2026). Latency issue affecting all users.
 
-**Notes:** Aniket flagged a channel-wide latency/navigation issue in Spaces on Apr 6. No assigned STARTED ticket found — may be investigating ad-hoc.
+**Notes:** Flagged a channel-wide latency/navigation issue in Spaces on Apr 6. May be investigating ad-hoc.
 
 ---
 
@@ -74,7 +78,8 @@ As of April 7, 2026, there are **50 STARTED tickets** and **50 PAUSED (blocked) 
 **Active Tickets:**
 | Ticket | Title | Stage | ETA | Status |
 |--------|-------|-------|-----|--------|
-| *(No STARTED ticket explicitly assigned)* | | | | |
+| XYNE-1294 | Test ticket creation during message editing | TO_DO | — | On track |
+| XYNE-11448 | Fix CSS styling in Themes | PR Review | — | On track |
 
 **Blockers:**
 - Electron app stuck on loading page (mentioned in `#xyne-spaces`, Apr 7, 2026). App is unusable in this state.
@@ -95,6 +100,23 @@ As of April 7, 2026, there are **50 STARTED tickets** and **50 PAUSED (blocked) 
 
 ---
 
+### Chinmay Singh
+**Capacity:** LOW
+
+**Active Tickets:**
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-5752 | Wrong structure for bitbucket webhooks in sandbox | Merged | — | On track |
+| XYNE-5826 | Remove hardcoded config for posting build status | Merged | — | On track |
+| XYNE-6034 | Flexible validation of PR title | Merged | — | On track |
+| XYNE-7399 | Adding manual reconnect to zero websocket connection | Dev in Progress | — | On track |
+| XYNE-11637 | Adding updatedBy state in indexed db | PR Review | — | On track |
+| XYNE-11940 | Fix search in DMs page | PR Review | — | On track |
+
+**Blockers:** None reported.
+
+---
+
 ### Krishan Saini
 **Capacity:** MEDIUM
 
@@ -109,7 +131,7 @@ As of April 7, 2026, there are **50 STARTED tickets** and **50 PAUSED (blocked) 
 ---
 
 ### Mamtha Venkattaramanujam
-**Capacity:** MEDIUM
+**Capacity:** HIGH
 
 **Active Tickets:**
 | Ticket | Title | Stage | ETA | Status |
@@ -135,6 +157,24 @@ As of April 7, 2026, there are **50 STARTED tickets** and **50 PAUSED (blocked) 
 
 ---
 
+### Milind Pithadia
+**Capacity:** LOW
+
+**Active Tickets:**
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-8317 | Threads feature Backlog: UX and Navigation Issues | PR Review | — | On track |
+| XYNE-11811 | Apply pending native app changes to main | PR Review | — | On track |
+| XYNE-11849 | Fix custom emoji display in native app | To be Picked Up | — | On track |
+| XYNE-11867 | Fix native app activity message rendering | To be Picked Up | — | On track |
+| XYNE-11906 | Update message actions in native app | To be Picked Up | — | On track |
+| XYNE-11937 | Implement native app DM message actions | To be Picked Up | — | On track |
+| XYNE-12034 | Refactor native app chat UI | To be Picked Up | — | On track |
+
+**Blockers:** None reported.
+
+---
+
 ### Mohankumar Malapureddy
 **Capacity:** HIGH
 
@@ -148,11 +188,14 @@ As of April 7, 2026, there are **50 STARTED tickets** and **50 PAUSED (blocked) 
 ---
 
 ### Navipriya S
-**Capacity:** MEDIUM
+**Capacity:** LOW
 
 **Active Tickets:**
 | Ticket | Title | Stage | ETA | Status |
 |--------|-------|-------|-----|--------|
+| XYNE-2205 | Refresh token Logic fix | Deployed | — | On track |
+| XYNE-5961 | Add RCA module | PR Review | — | On track |
+| XYNE-11288 | Removing Enrolment Health check | PR Review | — | On track |
 | XYNE-11941 | Fix join channel UX issue requiring refresh | PR Review | — | On track |
 | XYNE-11968 | Tickets in Boards taking time to render | QA Testing | — | On track |
 
@@ -161,11 +204,16 @@ As of April 7, 2026, there are **50 STARTED tickets** and **50 PAUSED (blocked) 
 ---
 
 ### Piyush Kesharwani
-**Capacity:** HIGH
+**Capacity:** LOW
 
 **Active Tickets:**
 | Ticket | Title | Stage | ETA | Status |
 |--------|-------|-------|-----|--------|
+| XYNE-335 | Routing Issue: On clicking project menu from sidebar | Verified | — | On track |
+| XYNE-5465 | Maker - checker stages for tickets | Merged | — | On track |
+| XYNE-5815 | Track PR and QA assignee activities | Merged | — | On track |
+| XYNE-7030 | Board Configuration Redesign | PR Review | — | On track |
+| XYNE-10402 | Tickets Archive | PR Review | — | On track |
 | XYNE-11716 | Implement organization and workspace management feature | PR Review | — | On track |
 
 **Blockers:** None reported.
@@ -173,13 +221,17 @@ As of April 7, 2026, there are **50 STARTED tickets** and **50 PAUSED (blocked) 
 ---
 
 ### Prakhar Agarwal
-**Capacity:** MEDIUM
+**Capacity:** LOW
 
 **Active Tickets:**
 | Ticket | Title | Stage | ETA | Status |
 |--------|-------|-------|-----|--------|
-| XYNE-12046 | Open Xyne Spaces links in app | PR Review | — | On track |
+| XYNE-7535 | Implement mobile search scroll behavior and fix UI issues | PR Review | — | On track |
+| XYNE-9234 | Show rejected ticket state and handle escape sequences | Dev in Progress | — | On track |
+| XYNE-11653 | Fix user search skipping exact name matches | Dev in Progress | — | On track |
+| XYNE-11724 | Add visual placeholder to kanban columns | PR Review | — | On track |
 | XYNE-11991 | Add request-to-join for ongoing channel calls | PR Review | — | On track |
+| XYNE-12046 | Open Xyne Spaces links in app | PR Review | — | On track |
 
 **Blockers:** None reported.
 
@@ -198,11 +250,17 @@ As of April 7, 2026, there are **50 STARTED tickets** and **50 PAUSED (blocked) 
 ---
 
 ### Rahul Kumar
-**Capacity:** HIGH
+**Capacity:** LOW
 
 **Active Tickets:**
 | Ticket | Title | Stage | ETA | Status |
 |--------|-------|-------|-----|--------|
+| XYNE-5461 | Text box active even when modal is open | COMPLETED | — | On track |
+| XYNE-5463 | UX issue on message layout | STARTED | — | On track |
+| XYNE-5504 | Add copy message option to iOS app | COMPLETED | — | On track |
+| XYNE-5904 | Allow user to clear optional profile fields | Merged | — | On track |
+| XYNE-11820 | Providing preview/code in readmeviewer | PR Review | — | On track |
+| XYNE-11954 | Added workspace and repo clone in xyne-claw | PR Review | — | On track |
 | XYNE-12079 | Integrate expense agent MCP | PR Review | — | On track |
 
 **Blockers:** None reported.
@@ -215,20 +273,22 @@ As of April 7, 2026, there are **50 STARTED tickets** and **50 PAUSED (blocked) 
 **Active Tickets:**
 | Ticket | Title | Stage | ETA | Status |
 |--------|-------|-------|-----|--------|
-| XYNE-12069 | Add notification trail when promoting group DM to channel | PR Review | — | On track |
 | XYNE-12048 | Implement walkthrough feature in Spaces | PR Review | — | On track |
+| XYNE-12050 | Need option to move ticket from incorrect channel to correct one | PR Review | — | On track |
+| XYNE-12059 | Xyne compatibility for Github | PR Review | — | On track |
+| XYNE-12069 | Add notification trail when promoting group DM to channel | PR Review | — | On track |
 
 **Blockers:** None reported.
 
 ---
 
 ### Shailendra Pratap Singh
-**Capacity:** MEDIUM
+**Capacity:** HIGH
 
 **Active Tickets:**
 | Ticket | Title | Stage | ETA | Status |
 |--------|-------|-------|-----|--------|
-| *(No STARTED ticket explicitly assigned)* | | | | |
+| XYNE-11561 | Ingest GCS agent data into Vespa | Dev in Progress | — | On track |
 
 **Blockers:**
 - Investigating LLM call overhead on workers: ActivityClassificationWorker, ticketCleanupWorker, proactiveNudge, conversationIngestionWorker — all making LLM calls, causing ~1.5GB heap at peak (mentioned in `#xyne-spaces`, Apr 7, 2026). Proposal to separate AI workers into a dedicated service is being discussed.
@@ -236,12 +296,14 @@ As of April 7, 2026, there are **50 STARTED tickets** and **50 PAUSED (blocked) 
 ---
 
 ### Shivral Somani
-**Capacity:** LOW
+**Capacity:** MEDIUM
 
 **Active Tickets:**
 | Ticket | Title | Stage | ETA | Status |
 |--------|-------|-------|-----|--------|
-| *(No STARTED ticket explicitly assigned)* | | | | |
+| XYNE-6179 | False Alerts | Dev in Progress | — | On track |
+| XYNE-6180 | Liveness Probe for Workflow Runners | PR Review | — | On track |
+| XYNE-11743 | Add multi sandbox environment for local AI dev | To be Picked Up | — | On track |
 
 **Blockers:**
 - 🚨 **LLM calls blocking ingestion pod** — "This is doing lot of LLM calls blocking ingestion" and "currently pod is stuck on these ai calls" (mentioned in `#xyne-spaces`, Apr 7, 2026, 6:37 AM & 8:39 AM). Pod is stuck; core ingestion pipeline degraded.
@@ -251,11 +313,12 @@ As of April 7, 2026, there are **50 STARTED tickets** and **50 PAUSED (blocked) 
 ---
 
 ### Shubham Dhamija
-**Capacity:** HIGH
+**Capacity:** MEDIUM
 
 **Active Tickets:**
 | Ticket | Title | Stage | ETA | Status |
 |--------|-------|-------|-----|--------|
+| XYNE-8482 | test issue | PR REVIEW | — | On track |
 | XYNE-11752 | Verify ticket creation feature | Dev in Progress | — | On track |
 
 **Blockers:** None reported.
@@ -263,12 +326,31 @@ As of April 7, 2026, there are **50 STARTED tickets** and **50 PAUSED (blocked) 
 ---
 
 ### Siraj Shaik
-**Capacity:** HIGH
+**Capacity:** MEDIUM
 
 **Active Tickets:**
 | Ticket | Title | Stage | ETA | Status |
 |--------|-------|-------|-----|--------|
+| XYNE-7386 | Include created tickets in KanbanBoardScreen view | Dev in Progress | — | On track |
+| XYNE-7469 | Rename Status to Status Category and add Stages filter | Dev in Progress | — | On track |
+| XYNE-10434 | Custom Profile Picture & Editable Display Name | PR Review | — | On track |
 | XYNE-12084 | Message BOT | PR Review | — | On track |
+
+**Blockers:** None reported.
+
+---
+
+### Suryansh Srivastava
+**Capacity:** LOW
+
+**Active Tickets:**
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-8107 | Implement Archival Mechanism for Inactive Projects | In Progress | — | On track |
+| XYNE-8242 | Enable group management for non-admin managers and team leads | PR Review | — | On track |
+| XYNE-9105 | Automate resource creation and validation on backend startup | Dev in Progress | — | On track |
+| XYNE-9266 | Exclude QA roles from user group task auto-assignment | Dev in Progress | — | On track |
+| XYNE-9402 | Grant board edit permissions to project admins | PR Review | — | On track |
 
 **Blockers:** None reported.
 
@@ -280,7 +362,7 @@ As of April 7, 2026, there are **50 STARTED tickets** and **50 PAUSED (blocked) 
 **Active Tickets:**
 | Ticket | Title | Stage | ETA | Status |
 |--------|-------|-------|-----|--------|
-| XYNE-11836 | Add email source report generation | PR Review | — | On track |
+| XYNE-11836 | Add email source report generation | To be Picked Up | — | On track |
 
 **Blockers:** None reported.
 
@@ -331,23 +413,26 @@ As of April 7, 2026, there are **50 STARTED tickets** and **50 PAUSED (blocked) 
 | Person | Active Tickets | Blockers | Capacity |
 |--------|---------------|----------|----------|
 | Abhinav Srivastava | 2 | 0 | MEDIUM |
-| Amitava Chakrabarti | 1 | 0 | HIGH |
-| Aman Patel | 1 | 0 | HIGH |
-| Aniket Agrawal | 0 | 1 | MEDIUM |
-| Amrit Raj | 0 | 1 | MEDIUM |
+| Amitava Chakrabarti | 3 | 0 | MEDIUM |
+| Aman Patel | 3 | 0 | LOW |
+| Aniket Agrawal | 0 | 1 | HIGH |
+| Amrit Raj | 2 | 1 | MEDIUM |
 | Anirudh Naruka | 1 | 0 | HIGH |
+| Chinmay Singh | 6 | 0 | LOW |
 | Krishan Saini | 2 | 0 | MEDIUM |
-| Mamtha Venkattaramanujam | 0 | 1 | MEDIUM |
+| Mamtha Venkattaramanujam | 0 | 1 | HIGH |
 | Manav Chaturvedi | 1 | 0 | HIGH |
+| Milind Pithadia | 7 | 0 | LOW |
 | Mohankumar Malapureddy | 1 | 0 | HIGH |
-| Navipriya S | 2 | 0 | MEDIUM |
-| Piyush Kesharwani | 1 | 0 | HIGH |
-| Prakhar Agarwal | 2 | 0 | MEDIUM |
+| Navipriya S | 5 | 0 | LOW |
+| Piyush Kesharwani | 6 | 0 | LOW |
+| Prakhar Agarwal | 6 | 0 | LOW |
 | Prajwal Prasad | 1 | 0 | HIGH |
-| Rahul Kumar | 1 | 0 | HIGH |
-| Satvik Batra | 2 | 0 | MEDIUM |
-| Shailendra Pratap Singh | 0 | 1 | MEDIUM |
-| Shivral Somani | 0 | 1 | LOW |
-| Shubham Dhamija | 1 | 0 | HIGH |
-| Siraj Shaik | 1 | 0 | HIGH |
+| Rahul Kumar | 7 | 0 | LOW |
+| Satvik Batra | 4 | 0 | MEDIUM |
+| Shailendra Pratap Singh | 1 | 1 | MEDIUM |
+| Shivral Somani | 3 | 1 | MEDIUM |
+| Shubham Dhamija | 2 | 0 | MEDIUM |
+| Siraj Shaik | 4 | 0 | MEDIUM |
+| Suryansh Srivastava | 5 | 0 | LOW |
 | Sumant Tirkey | 1 | 0 | HIGH |
