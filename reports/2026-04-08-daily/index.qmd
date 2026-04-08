@@ -2,165 +2,287 @@
 title: Daily Workload Report — 2026-04-08
 date: 2026-04-08
 cadence: daily
-generated_at: 2026-04-08T10:02:21.527Z
+generated_at: 2026-04-08T11:15:51.845Z
 toc: true
 toc-depth: 3
 format: html
 ---
 
 ## Summary
-There are **50 active (STARTED) tickets** and **50 paused tickets** in the system. **6 tickets have breached their ETAs**, with 2 still in STARTED status. **40 unassigned tickets** have HIGH or CRITICAL priority, including **17 integrity check failures** that need urgent ops attention. **6 active blockers** were reported in team discussions over the last 2 days, primarily around infrastructure (Vespa ingestion, Docker storage, Jenkins builds). The top concern is the Vespa ingestion bottleneck caused by AI service co-location — a fix has been approved.
+
+**57 active tickets** across 13 team members, with **50 PAUSED tickets** (many unassigned and stale). **44 tickets have breached ETAs** — most are PAUSED or on hold waiting for external dependencies. **39 CRITICAL and 150+ HIGH priority tickets are unassigned**, creating significant assignment risk. **Top concerns:** (1) Vespa ingestion is blocked by LLM calls causing heap issues — needs immediate attention; (2) Satvik Batra has 13 active tickets (capacity overload); (3) Multiple ONETEAM payment gateway integrity issues are stalled waiting on external parties.
 
 ## Team Workload
 
-### Ankur Mohan Abraham
-**Capacity:** MEDIUM
+### Satvik Batra
+**Capacity:** LOW (13 active tickets — overload)
 
 **Active Tickets:**
 
 | Ticket | Title | Stage | ETA | Status |
 |--------|-------|-------|-----|--------|
-| XYNE-123 | Test ticket | TO_DO | Dec 8, 2025 | ⚠ ETA breached |
+| XYNE-5881 | Enhance group by functionality in tickets | IN_PROGRESS | Feb 10 | ⚠ ETA breached |
+| XYNE-12090 | Auto-open add people dialog on channel creation | PR Review | — | |
+| XYNE-11959 | Optimise frontend channel loading | PR Review | — | HIGH priority |
+| XYNE-12048 | Implement walkthrough feature in Spaces | PR Review | — | |
+| XYNE-12059 | Xyne compatibility for Github | PR Review | — | Bug sweep in progress |
+| XYNE-12014 | Update sidebar color to green | PR Review | — | |
+| XYNE-12050 | Move ticket from incorrect channel to correct one | PR Review | — | |
+| XYNE-12057 | Add subteam column to user profile and table | PR Review | — | |
+| XYNE-12054 | Add subteam column to users table and profile | PR Review | — | |
+| XYNE-12029 | Group sidebar icons into categories | PR Review | — | |
+| XYNE-12022 | Reduce workflow chat panel height | PR Review | — | |
+| XYNE-12010 | Add thread message limit and load more | PR Review | — | |
 
-**Notes:** This ticket has been STARTED since December 2025 with a missed ETA. May need follow-up.
+**Blockers:** None explicitly reported.
 
----
-
-### Navipriya S
-**Capacity:** MEDIUM
-
-**Active Tickets:**
-
-| Ticket | Title | Stage | ETA | Status |
-|--------|-------|-------|-----|--------|
-| XYNE-2205 | Refresh token Logic fix | Deployed | Jan 21, 2026 | PAUSED — ETA breached |
-| XYNE-9996 | Implement MTLS in native module | To be Picked Up | Mar 3, 2026 | PAUSED — ETA breached |
-
-**Notes:** Two paused tickets with breached ETAs. Both appear blocked on external dependencies.
-
----
-
-### Prakhar Agarwal
-**Capacity:** MEDIUM
-
-**Active Tickets:**
-
-| Ticket | Title | Stage | ETA | Status |
-|--------|-------|-------|-----|--------|
-| XYNE-9400 | Implement user email signatures and database storage | PR Review | Feb 26, 2026 | ⚠ ETA breached |
-
-**Notes:** Ticket is in PR Review but ETA was Feb 26. May need merge prioritization.
-
----
-
-### Amrit Raj
-**Capacity:** LOW
-
-**Active Tickets:** Details not available from current data
-
-**Blockers:**
-- Electron app stuck on loading page (mentioned in #xyne-spaces, Apr 7, 7:40 AM)
-- "No space left on device" error on Docker (mentioned in #xyne-spaces, Apr 7, 3:05 PM)
-
-**Notes:** Multiple infrastructure issues reported. Docker disk space needs attention.
-
----
-
-### Shivral Somani
-**Capacity:** LOW
-
-**Active Tickets:** Details not available from current data
-
-**Blockers:**
-- Pod stuck on AI calls (mentioned in #xyne-spaces, Apr 7, 6:37 AM)
-- LLM calls blocking ingestion (mentioned in #xyne-spaces, Apr 7, 8:39 AM)
-
-**Notes:** Key blocker for Vespa ingestion. Team agreed to separate AI services into a dedicated service.
-
----
-
-### Mamtha Venkattaramanujam
-**Capacity:** MEDIUM
-
-**Active Tickets:** Details not available from current data
-
-**Blockers:**
-- Builds failing at "Evaluate Test Results" stage — waiting for read access (mentioned in #xyne-spaces, Apr 7, 1:10 PM)
+**Notes:** Significant capacity concern — consider redistributing some PR reviews.
 
 ---
 
 ### Praveen KumarKN
-**Capacity:** MEDIUM
+**Capacity:** LOW (8 active tickets)
 
-**Active Tickets:** Details not available from current data
+**Active Tickets:**
 
-**Blockers:**
-- Ingestion still not happening (mentioned in #xyne-spaces, Apr 7, 6:17 AM)
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-12080 | Add supported mimetype for file ingestion | IN_REVIEW | Apr 8 | ⚠ Due today |
+| XYNE-12047 | Sort search results by recency | IN_REVIEW | Apr 7 | ⚠ ETA breached |
+| XYNE-6143 | Preprod Testing - Golden Queries | IN_REVIEW | Feb 12 | ⚠ ETA breached |
+| XYNE-8051 | Implement Vespa results GCS storage cleanup | IN_REVIEW | Feb 19 | ⚠ ETA breached |
+| XYNE-11886 | Sort channels by channel weights | IN_REVIEW | Mar 31 | ⚠ ETA breached |
+| XYNE-11889 | Add CALL-TYPE for indexing recording transcripts | IN_REVIEW | Mar 31 | ⚠ ETA breached |
+| XYNE-5736 | Add search support for canvas, transcripts | MERGED | Feb 9 | ⚠ ETA breached |
+| XYNE-9214 | Fix Vite config | PR Review | Feb 26 | ⚠ ETA breached |
 
-**Notes:** Related to the Vespa ingestion backlog (90K items).
+**Blockers:** None explicitly reported.
+
+**Notes:** Multiple tickets with breached ETAs — several in MERGED/IN_REVIEW status may need closure.
 
 ---
 
-### Abhishek Verma
-**Capacity:** MEDIUM
+### Prakhar Agarwal
+**Capacity:** LOW (7 active tickets)
 
-**Active Tickets:** Details not available from current data
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-9400 | Implement user email signatures and database storage | PR Review | Feb 26 | ⚠ ETA breached |
+| XYNE-11606 | Open profile instead of DM for tagged users | PR Review | — | |
+| XYNE-12046 | Open Xyne Spaces links in app | PR Review | — | |
+| XYNE-11991 | Add request-to-join for ongoing channel calls | PR Review | — | |
+| XYNE-10023 | Update user status to 'in a call' during active calls | PR Review | Mar 16 | ⚠ ETA breached |
+| XYNE-11724 | Add visual placeholder to kanban columns | PR Review | — | |
+| XYNE-11653 | Fix user search skipping exact name matches | Dev in Progress | — | |
+
+**Blockers:** None explicitly reported.
+
+---
+
+### Sayantan Paul
+**Capacity:** LOW (5 active tickets)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-11990 | Native call functionality for Lotus mobile app | PR Review | — | HIGH priority |
+| XYNE-7834 | Expand search to include new users | QA Testing | Feb 18 | ⚠ ETA breached |
+| XYNE-10934 | Fix call modals focus, timezone display | PR Review | — | MEDIUM priority |
+| XYNE-11286 | Fix CMD+N image upload issue | PR Review | — | |
+| XYNE-5832 | Mobile Activity Transition & Activity Tab Overflow | To be Picked Up | Feb 9 | ⚠ ETA breached |
 
 **Blockers:**
-- Build issue due to Jenkins storage — will deploy once resolved (mentioned in #xyne-spaces, Apr 8, 2:44 AM)
+- XYNE-9409 (PAUSED): Consistency chat experience across all conversations — paused since Feb 26
+
+---
+
+### Navipriya S
+**Capacity:** MEDIUM (5 active tickets)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-11968 | Tickets in Boards taking time to render | QA Testing | — | MEDIUM priority |
+| XYNE-11760 | Added db logs | PR Review | — | |
+| XYNE-11651 | Migrate JIRA tickets to Spaces | PR Review | — | |
+| XYNE-5961 | Add RCA module | PR Review | Feb 10 | ⚠ ETA breached |
+| XYNE-11288 | Removing Enrolment Health check | PR Review | — | |
+
+**Blockers:**
+- XYNE-2205 (PAUSED): Refresh token Logic fix — deployed but paused since Jan 21
+
+---
+
+### Aman Patel
+**Capacity:** MEDIUM (5 active tickets)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-11921 | Fix attachment failure on ticket creation | PR Review | — | MEDIUM priority |
+| XYNE-11898 | Group buttons in channel and thread panels | PR Review | — | |
+| XYNE-11127 | Fix forward modal @ suggestion enter key issue | PR Review | — | |
+| XYNE-11750 | Implement Lotus mobile app header component | PR Review | — | |
+| XYNE-5272 | Canvas Block Action Toolbar | Dev in Progress | Jan 28 | ⚠ ETA breached |
+
+**Blockers:**
+- XYNE-6451 (PAUSED): Channel Settings in Channel Info Modal — paused since Feb 12
+
+---
+
+### Amrit Raj
+**Capacity:** MEDIUM (5 active tickets)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-11904 | Fix attachment preview opening on delete | PR Review | — | |
+| XYNE-11851 | Implement chat page tabs automation | PR Review | — | |
+| XYNE-11650 | Automate profile menu edit functionality | PR Review | — | |
+| XYNE-11478 | Implement sidebar navigation automation | PR Review | — | |
+| XYNE-1294 | Test ticket creation during message editing | TO_DO | Jan 13 | ⚠ ETA breached |
+
+**Blockers:** None explicitly reported.
+
+**Notes:** Mentioned Electron app stuck on loading page issue in #xyne-spaces (Apr 7).
+
+---
+
+### Shivral Somani
+**Capacity:** MEDIUM (3 active tickets)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-11743 | Add multi sandbox environment for local AI dev | PR Review | — | MEDIUM priority |
+| XYNE-6180 | Liveness Probe for Workflow Runners | PR Review | Feb 11 | ⚠ ETA breached |
+| XYNE-6179 | False Alerts | Dev in Progress | Feb 11 | ⚠ ETA breached |
+
+**Blockers:** None explicitly reported.
+
+**Notes:** Active in Vespa ingestion troubleshooting — reported LLM calls blocking ingestion pods in #xyne-spaces (Apr 7).
+
+---
+
+### Samit Barai
+**Capacity:** HIGH (2 active tickets)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-11959 | Optimise frontend channel loading | PR Review | — | HIGH priority |
+| XYNE-11709 | Collaboration on Canvas | PR Review | — | |
+
+**Blockers:** None explicitly reported.
+
+**Notes:** Requested unassign button option for tickets in #xyne-spaces (Apr 7).
+
+---
+
+### Mamtha Venkattaramanujam
+**Capacity:** HIGH (2 active tickets)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-5394 | Mouse position triggers hover when Cmd K opens | MERGED | Feb 2 | ⚠ ETA breached |
+| XYNE-11744 | Add search capability to Group DMs | MERGED | Mar 25 | ⚠ ETA breached |
+
+**Blockers:** None explicitly reported.
+
+**Notes:** Reported build failures in #xyne-spaces (Apr 7) — builds failing at "Evaluate Test Results" stage, local failing at Docker services.
+
+---
+
+### Sakshi Gupta
+**Capacity:** HIGH (2 active tickets)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| DESIGNTEAM-0072 | Mentions in Canvas | To Do | Mar 24 | ⚠ ETA breached |
+| DESIGNTEAM-0040 | Notes Design Revamp | In Progress | Feb 23 | ⚠ ETA breached |
+
+**Blockers:** None explicitly reported.
+
+**Notes:** Working on Figma designs for code block, embed block components (mentioned in #xyne-space-design, Apr 7).
+
+---
+
+### Srishti Chauhan
+**Capacity:** HIGH (0 active tickets)
+
+**Active Tickets:** None
+
+**Blockers:**
+- ONETEAM-0039 (PAUSED): PAYTM v2 amount mismatch — ON HOLD EXTERNAL since Mar 26
+
+---
+
+### Shailendra Pratap Singh
+**Capacity:** HIGH (0 active tickets)
+
+**Active Tickets:** None
+
+**Blockers:** None explicitly reported.
+
+**Notes:** Active in Vespa/LLM troubleshooting — provided details on ActivityClassificationWorker, ticketCleanupWorker causing heap issues (Apr 7).
 
 ---
 
 ## Unassigned Critical Tickets
 
-| Ticket | Title | Priority | Notes |
+| Ticket | Title | Priority | Board |
 |--------|-------|----------|-------|
-| XYNE-12101 | Add subteam field to user profile and table | CRITICAL | Feature work |
-| GENIUS-0209 | Allow email cc parsing for domain_mid_lookup | CRITICAL | Integration |
-| ARDRA-0202 | Create Play Store feature graphic | CRITICAL | Ardra project |
-| ARDRA-0201 | Implement SSOB functionality | CRITICAL | Ardra project |
-| ARDRA-0200 | Implement filtering functionality for admin actionable items | CRITICAL | Ardra project |
-| ARDRA-0198 | Build Policy view modal for managers | CRITICAL | Ardra project |
-| ARDRA-0187 | Web Issues | CRITICAL | Ardra project |
-| ARDRA-0186 | Edit/Submit Claim Journey | CRITICAL | Ardra project |
-| ARDRA-0185 | Email Notifications | CRITICAL | Ardra project |
-| INFRA-0005 | Deploy SSO login to production | CRITICAL | Infrastructure |
-| INFRA-0001 | Unused EBS volumes Cleanup | CRITICAL | Infrastructure |
-| EULER-0017 | Global Outage Alert | HIGH | May need immediate triage |
-| EULER-0016 | Global Outage Alert | HIGH | May need immediate triage |
+| XYNE-12128 | Implement Call Feature Analytics | CRITICAL | Xyne-Spaces |
+| XYNE-5643 | Fix ticket details mobile view bug | CRITICAL | Xyne-Spaces |
+| XYNE-5535 | Fix mobile layout for small display settings | CRITICAL | Xyne-Spaces |
+| XYNE-5146 | Fix attachment aspect ratio | CRITICAL | Xyne-Spaces |
+| XYNE-3540 | Additional Filter Fields in Boards | CRITICAL | Xyne-Spaces |
+| ARDRA-0196 | Implement pagination for claims list API | CRITICAL | Ardra-Design |
+| ARDRA-0194 | Implement Switch User functionality for admin | CRITICAL | Ardra-Design |
+| DPIP-0007 | Feature Dsl | CRITICAL | DPIP |
+| AIPLATFORM-0012 | Intermittent No-Response / Early Termination | CRITICAL | AI Platform |
 
-**Note:** 17 additional HIGH priority tickets (ONETEAM-1446 to ONETEAM-1462) are integrity check failures across multiple gateways (PAYTM_V2, CRED, YES_BIZ, PAYU, UNLIMIT, SETU, HYPER_PG, CAMSPAY). These likely need urgent ops attention.
+*...and 30 more CRITICAL tickets. Plus 150+ HIGH priority unassigned tickets (mostly auto-generated ONETEAM integrity check failures).*
+
+---
 
 ## Blockers Needing Escalation
 
-- **Shivral Somani**: Vespa ingestion blocked by AI service LLM calls in same pod — open since Apr 7. **Solution approved** (separate AI services), awaiting implementation.
-- **Amrit Raj**: Docker "no space left on device" — reported Apr 7, 3:05 PM. Recommend infra team clean up disk space.
-- **Mamtha Venkattaramanujam**: Builds failing at "Evaluate Test Results" — waiting for read access since Apr 7, 1:10 PM. Recommend checking permissions.
-- **Abhishek Verma**: Jenkins storage issue blocking deployment — reported Apr 8, 2:44 AM. Needs infra attention.
+- **Vespa Ingestion Backlog (CRITICAL):** LLM calls from ActivityClassificationWorker, ticketCleanupWorker, proactiveNudge blocking ingestion pods. Shivral Somani and Shailendra Pratap Singh investigating. Recommend creating dedicated AI service to resolve backlog.
+- **ONETEAM Payment Gateway Issues:** Multiple ONETEAM tickets (ONETEAM-0039, ONETEAM-0799, ONETEAM-0836, ONETEAM-0873) stuck ON_HOLD_EXTERNAL for 2+ weeks. Escalation to external parties needed.
+- **SEV2 Transaction Alerts:** icicipru, upstox/Bandhan Bank, Lazypay transactions stuck in STARTED state — automated alerts firing but resolution unclear.
+- **Build Pipeline Failures:** Mamtha reported builds failing at Docker services stage. Branches affected: `fix/devqa-xyne-feature-smart-from-in-operators`, `fix/fix-file-mimetype`.
+
+---
 
 ## Capacity Summary
 
-| Person | Active | Blocked | Capacity | Notes |
-|--------|--------|---------|----------|-------|
-| Ankur Mohan Abraham | 1 | 0 | MEDIUM | ETA breached |
-| Navipriya S | 0 | 2 | MEDIUM | Both paused, ETAs breached |
-| Prakhar Agarwal | 1 | 0 | MEDIUM | ETA breached |
-| Amrit Raj | — | 2 | LOW | Multiple infra blockers |
-| Shivral Somani | — | 2 | LOW | Vespa ingestion affected |
-| Mamtha Venkattaramanujam | — | 1 | MEDIUM | Build permissions issue |
-| Praveen KumarKN | — | 1 | MEDIUM | Ingestion issue |
-| Abhishek Verma | — | 1 | MEDIUM | Jenkins storage |
+| Person | Active | Blocked | Capacity |
+|--------|--------|---------|----------|
+| Satvik Batra | 13 | 0 | LOW ⚠ |
+| Praveen KumarKN | 8 | 0 | LOW |
+| Prakhar Agarwal | 7 | 0 | LOW |
+| Sayantan Paul | 5 | 1 | LOW |
+| Navipriya S | 5 | 1 | MEDIUM |
+| Aman Patel | 5 | 1 | MEDIUM |
+| Amrit Raj | 5 | 0 | MEDIUM |
+| Shivral Somani | 3 | 0 | MEDIUM |
+| Samit Barai | 2 | 0 | HIGH |
+| Mamtha Venkattaramanujam | 2 | 0 | HIGH |
+| Sakshi Gupta | 2 | 0 | HIGH |
+| Srishti Chauhan | 0 | 1 | HIGH |
+| Shailendra Pratap Singh | 0 | 0 | HIGH |
 
-**Note:** Assignee data for STARTED tickets was not fully available. Capacity estimates for some team members are based on blocker reports only. Recommend refreshing data with full assignee information.
-
-## Key Metrics
-
-| Metric | Count |
-|--------|-------|
-| Total STARTED tickets | 50 |
-| Total PAUSED tickets | 50 |
-| Breached ETAs | 6 |
-| Unassigned CRITICAL | 20 |
-| Unassigned HIGH | 20 |
-| Active blockers reported | 6 |
-| Integrity check failures | 17 |
+**Total Active:** 57 | **Total Blocked:** 4 | **Total Breached ETAs:** 44

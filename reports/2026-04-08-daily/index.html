@@ -53,19 +53,23 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary">Summary</a></li>
   <li><a href="#team-workload" id="toc-team-workload" class="nav-link" data-scroll-target="#team-workload">Team Workload</a>
   <ul class="collapse">
-  <li><a href="#ankur-mohan-abraham" id="toc-ankur-mohan-abraham" class="nav-link" data-scroll-target="#ankur-mohan-abraham">Ankur Mohan Abraham</a></li>
-  <li><a href="#navipriya-s" id="toc-navipriya-s" class="nav-link" data-scroll-target="#navipriya-s">Navipriya S</a></li>
+  <li><a href="#satvik-batra" id="toc-satvik-batra" class="nav-link" data-scroll-target="#satvik-batra">Satvik Batra</a></li>
+  <li><a href="#praveen-kumarkn" id="toc-praveen-kumarkn" class="nav-link" data-scroll-target="#praveen-kumarkn">Praveen KumarKN</a></li>
   <li><a href="#prakhar-agarwal" id="toc-prakhar-agarwal" class="nav-link" data-scroll-target="#prakhar-agarwal">Prakhar Agarwal</a></li>
+  <li><a href="#sayantan-paul" id="toc-sayantan-paul" class="nav-link" data-scroll-target="#sayantan-paul">Sayantan Paul</a></li>
+  <li><a href="#navipriya-s" id="toc-navipriya-s" class="nav-link" data-scroll-target="#navipriya-s">Navipriya S</a></li>
+  <li><a href="#aman-patel" id="toc-aman-patel" class="nav-link" data-scroll-target="#aman-patel">Aman Patel</a></li>
   <li><a href="#amrit-raj" id="toc-amrit-raj" class="nav-link" data-scroll-target="#amrit-raj">Amrit Raj</a></li>
   <li><a href="#shivral-somani" id="toc-shivral-somani" class="nav-link" data-scroll-target="#shivral-somani">Shivral Somani</a></li>
+  <li><a href="#samit-barai" id="toc-samit-barai" class="nav-link" data-scroll-target="#samit-barai">Samit Barai</a></li>
   <li><a href="#mamtha-venkattaramanujam" id="toc-mamtha-venkattaramanujam" class="nav-link" data-scroll-target="#mamtha-venkattaramanujam">Mamtha Venkattaramanujam</a></li>
-  <li><a href="#praveen-kumarkn" id="toc-praveen-kumarkn" class="nav-link" data-scroll-target="#praveen-kumarkn">Praveen KumarKN</a></li>
-  <li><a href="#abhishek-verma" id="toc-abhishek-verma" class="nav-link" data-scroll-target="#abhishek-verma">Abhishek Verma</a></li>
+  <li><a href="#sakshi-gupta" id="toc-sakshi-gupta" class="nav-link" data-scroll-target="#sakshi-gupta">Sakshi Gupta</a></li>
+  <li><a href="#srishti-chauhan" id="toc-srishti-chauhan" class="nav-link" data-scroll-target="#srishti-chauhan">Srishti Chauhan</a></li>
+  <li><a href="#shailendra-pratap-singh" id="toc-shailendra-pratap-singh" class="nav-link" data-scroll-target="#shailendra-pratap-singh">Shailendra Pratap Singh</a></li>
   </ul></li>
   <li><a href="#unassigned-critical-tickets" id="toc-unassigned-critical-tickets" class="nav-link" data-scroll-target="#unassigned-critical-tickets">Unassigned Critical Tickets</a></li>
   <li><a href="#blockers-needing-escalation" id="toc-blockers-needing-escalation" class="nav-link" data-scroll-target="#blockers-needing-escalation">Blockers Needing Escalation</a></li>
   <li><a href="#capacity-summary" id="toc-capacity-summary" class="nav-link" data-scroll-target="#capacity-summary">Capacity Summary</a></li>
-  <li><a href="#key-metrics" id="toc-key-metrics" class="nav-link" data-scroll-target="#key-metrics">Key Metrics</a></li>
   </ul>
 </nav>
 </div>
@@ -98,40 +102,13 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="summary" class="level2">
 <h2 class="anchored" data-anchor-id="summary">Summary</h2>
-<p>There are <strong>50 active (STARTED) tickets</strong> and <strong>50 paused tickets</strong> in the system. <strong>6 tickets have breached their ETAs</strong>, with 2 still in STARTED status. <strong>40 unassigned tickets</strong> have HIGH or CRITICAL priority, including <strong>17 integrity check failures</strong> that need urgent ops attention. <strong>6 active blockers</strong> were reported in team discussions over the last 2 days, primarily around infrastructure (Vespa ingestion, Docker storage, Jenkins builds). The top concern is the Vespa ingestion bottleneck caused by AI service co-location — a fix has been approved.</p>
+<p><strong>57 active tickets</strong> across 13 team members, with <strong>50 PAUSED tickets</strong> (many unassigned and stale). <strong>44 tickets have breached ETAs</strong> — most are PAUSED or on hold waiting for external dependencies. <strong>39 CRITICAL and 150+ HIGH priority tickets are unassigned</strong>, creating significant assignment risk. <strong>Top concerns:</strong> (1) Vespa ingestion is blocked by LLM calls causing heap issues — needs immediate attention; (2) Satvik Batra has 13 active tickets (capacity overload); (3) Multiple ONETEAM payment gateway integrity issues are stalled waiting on external parties.</p>
 </section>
 <section id="team-workload" class="level2">
 <h2 class="anchored" data-anchor-id="team-workload">Team Workload</h2>
-<section id="ankur-mohan-abraham" class="level3">
-<h3 class="anchored" data-anchor-id="ankur-mohan-abraham">Ankur Mohan Abraham</h3>
-<p><strong>Capacity:</strong> MEDIUM</p>
-<p><strong>Active Tickets:</strong></p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Ticket</th>
-<th>Title</th>
-<th>Stage</th>
-<th>ETA</th>
-<th>Status</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>XYNE-123</td>
-<td>Test ticket</td>
-<td>TO_DO</td>
-<td>Dec 8, 2025</td>
-<td>⚠ ETA breached</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Notes:</strong> This ticket has been STARTED since December 2025 with a missed ETA. May need follow-up.</p>
-<hr>
-</section>
-<section id="navipriya-s" class="level3">
-<h3 class="anchored" data-anchor-id="navipriya-s">Navipriya S</h3>
-<p><strong>Capacity:</strong> MEDIUM</p>
+<section id="satvik-batra" class="level3">
+<h3 class="anchored" data-anchor-id="satvik-batra">Satvik Batra</h3>
+<p><strong>Capacity:</strong> LOW (13 active tickets — overload)</p>
 <p><strong>Active Tickets:</strong></p>
 <table class="caption-top table">
 <colgroup>
@@ -152,27 +129,182 @@ ul.task-list li input[type="checkbox"] {
 </thead>
 <tbody>
 <tr class="odd">
-<td>XYNE-2205</td>
-<td>Refresh token Logic fix</td>
-<td>Deployed</td>
-<td>Jan 21, 2026</td>
-<td>PAUSED — ETA breached</td>
+<td>XYNE-5881</td>
+<td>Enhance group by functionality in tickets</td>
+<td>IN_PROGRESS</td>
+<td>Feb 10</td>
+<td>⚠ ETA breached</td>
 </tr>
 <tr class="even">
-<td>XYNE-9996</td>
-<td>Implement MTLS in native module</td>
-<td>To be Picked Up</td>
-<td>Mar 3, 2026</td>
-<td>PAUSED — ETA breached</td>
+<td>XYNE-12090</td>
+<td>Auto-open add people dialog on channel creation</td>
+<td>PR Review</td>
+<td>—</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>XYNE-11959</td>
+<td>Optimise frontend channel loading</td>
+<td>PR Review</td>
+<td>—</td>
+<td>HIGH priority</td>
+</tr>
+<tr class="even">
+<td>XYNE-12048</td>
+<td>Implement walkthrough feature in Spaces</td>
+<td>PR Review</td>
+<td>—</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>XYNE-12059</td>
+<td>Xyne compatibility for Github</td>
+<td>PR Review</td>
+<td>—</td>
+<td>Bug sweep in progress</td>
+</tr>
+<tr class="even">
+<td>XYNE-12014</td>
+<td>Update sidebar color to green</td>
+<td>PR Review</td>
+<td>—</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>XYNE-12050</td>
+<td>Move ticket from incorrect channel to correct one</td>
+<td>PR Review</td>
+<td>—</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>XYNE-12057</td>
+<td>Add subteam column to user profile and table</td>
+<td>PR Review</td>
+<td>—</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>XYNE-12054</td>
+<td>Add subteam column to users table and profile</td>
+<td>PR Review</td>
+<td>—</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>XYNE-12029</td>
+<td>Group sidebar icons into categories</td>
+<td>PR Review</td>
+<td>—</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>XYNE-12022</td>
+<td>Reduce workflow chat panel height</td>
+<td>PR Review</td>
+<td>—</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>XYNE-12010</td>
+<td>Add thread message limit and load more</td>
+<td>PR Review</td>
+<td>—</td>
+<td></td>
 </tr>
 </tbody>
 </table>
-<p><strong>Notes:</strong> Two paused tickets with breached ETAs. Both appear blocked on external dependencies.</p>
+<p><strong>Blockers:</strong> None explicitly reported.</p>
+<p><strong>Notes:</strong> Significant capacity concern — consider redistributing some PR reviews.</p>
+<hr>
+</section>
+<section id="praveen-kumarkn" class="level3">
+<h3 class="anchored" data-anchor-id="praveen-kumarkn">Praveen KumarKN</h3>
+<p><strong>Capacity:</strong> LOW (8 active tickets)</p>
+<p><strong>Active Tickets:</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 22%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 14%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Ticket</th>
+<th>Title</th>
+<th>Stage</th>
+<th>ETA</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>XYNE-12080</td>
+<td>Add supported mimetype for file ingestion</td>
+<td>IN_REVIEW</td>
+<td>Apr 8</td>
+<td>⚠ Due today</td>
+</tr>
+<tr class="even">
+<td>XYNE-12047</td>
+<td>Sort search results by recency</td>
+<td>IN_REVIEW</td>
+<td>Apr 7</td>
+<td>⚠ ETA breached</td>
+</tr>
+<tr class="odd">
+<td>XYNE-6143</td>
+<td>Preprod Testing - Golden Queries</td>
+<td>IN_REVIEW</td>
+<td>Feb 12</td>
+<td>⚠ ETA breached</td>
+</tr>
+<tr class="even">
+<td>XYNE-8051</td>
+<td>Implement Vespa results GCS storage cleanup</td>
+<td>IN_REVIEW</td>
+<td>Feb 19</td>
+<td>⚠ ETA breached</td>
+</tr>
+<tr class="odd">
+<td>XYNE-11886</td>
+<td>Sort channels by channel weights</td>
+<td>IN_REVIEW</td>
+<td>Mar 31</td>
+<td>⚠ ETA breached</td>
+</tr>
+<tr class="even">
+<td>XYNE-11889</td>
+<td>Add CALL-TYPE for indexing recording transcripts</td>
+<td>IN_REVIEW</td>
+<td>Mar 31</td>
+<td>⚠ ETA breached</td>
+</tr>
+<tr class="odd">
+<td>XYNE-5736</td>
+<td>Add search support for canvas, transcripts</td>
+<td>MERGED</td>
+<td>Feb 9</td>
+<td>⚠ ETA breached</td>
+</tr>
+<tr class="even">
+<td>XYNE-9214</td>
+<td>Fix Vite config</td>
+<td>PR Review</td>
+<td>Feb 26</td>
+<td>⚠ ETA breached</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Blockers:</strong> None explicitly reported.</p>
+<p><strong>Notes:</strong> Multiple tickets with breached ETAs — several in MERGED/IN_REVIEW status may need closure.</p>
 <hr>
 </section>
 <section id="prakhar-agarwal" class="level3">
 <h3 class="anchored" data-anchor-id="prakhar-agarwal">Prakhar Agarwal</h3>
-<p><strong>Capacity:</strong> MEDIUM</p>
+<p><strong>Capacity:</strong> LOW (7 active tickets)</p>
 <p><strong>Active Tickets:</strong></p>
 <table class="caption-top table">
 <colgroup>
@@ -196,50 +328,493 @@ ul.task-list li input[type="checkbox"] {
 <td>XYNE-9400</td>
 <td>Implement user email signatures and database storage</td>
 <td>PR Review</td>
-<td>Feb 26, 2026</td>
+<td>Feb 26</td>
+<td>⚠ ETA breached</td>
+</tr>
+<tr class="even">
+<td>XYNE-11606</td>
+<td>Open profile instead of DM for tagged users</td>
+<td>PR Review</td>
+<td>—</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>XYNE-12046</td>
+<td>Open Xyne Spaces links in app</td>
+<td>PR Review</td>
+<td>—</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>XYNE-11991</td>
+<td>Add request-to-join for ongoing channel calls</td>
+<td>PR Review</td>
+<td>—</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>XYNE-10023</td>
+<td>Update user status to ‘in a call’ during active calls</td>
+<td>PR Review</td>
+<td>Mar 16</td>
+<td>⚠ ETA breached</td>
+</tr>
+<tr class="even">
+<td>XYNE-11724</td>
+<td>Add visual placeholder to kanban columns</td>
+<td>PR Review</td>
+<td>—</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>XYNE-11653</td>
+<td>Fix user search skipping exact name matches</td>
+<td>Dev in Progress</td>
+<td>—</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Blockers:</strong> None explicitly reported.</p>
+<hr>
+</section>
+<section id="sayantan-paul" class="level3">
+<h3 class="anchored" data-anchor-id="sayantan-paul">Sayantan Paul</h3>
+<p><strong>Capacity:</strong> LOW (5 active tickets)</p>
+<p><strong>Active Tickets:</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 22%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 14%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Ticket</th>
+<th>Title</th>
+<th>Stage</th>
+<th>ETA</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>XYNE-11990</td>
+<td>Native call functionality for Lotus mobile app</td>
+<td>PR Review</td>
+<td>—</td>
+<td>HIGH priority</td>
+</tr>
+<tr class="even">
+<td>XYNE-7834</td>
+<td>Expand search to include new users</td>
+<td>QA Testing</td>
+<td>Feb 18</td>
+<td>⚠ ETA breached</td>
+</tr>
+<tr class="odd">
+<td>XYNE-10934</td>
+<td>Fix call modals focus, timezone display</td>
+<td>PR Review</td>
+<td>—</td>
+<td>MEDIUM priority</td>
+</tr>
+<tr class="even">
+<td>XYNE-11286</td>
+<td>Fix CMD+N image upload issue</td>
+<td>PR Review</td>
+<td>—</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>XYNE-5832</td>
+<td>Mobile Activity Transition &amp; Activity Tab Overflow</td>
+<td>To be Picked Up</td>
+<td>Feb 9</td>
 <td>⚠ ETA breached</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Notes:</strong> Ticket is in PR Review but ETA was Feb 26. May need merge prioritization.</p>
+<p><strong>Blockers:</strong> - XYNE-9409 (PAUSED): Consistency chat experience across all conversations — paused since Feb 26</p>
+<hr>
+</section>
+<section id="navipriya-s" class="level3">
+<h3 class="anchored" data-anchor-id="navipriya-s">Navipriya S</h3>
+<p><strong>Capacity:</strong> MEDIUM (5 active tickets)</p>
+<p><strong>Active Tickets:</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 22%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 14%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Ticket</th>
+<th>Title</th>
+<th>Stage</th>
+<th>ETA</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>XYNE-11968</td>
+<td>Tickets in Boards taking time to render</td>
+<td>QA Testing</td>
+<td>—</td>
+<td>MEDIUM priority</td>
+</tr>
+<tr class="even">
+<td>XYNE-11760</td>
+<td>Added db logs</td>
+<td>PR Review</td>
+<td>—</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>XYNE-11651</td>
+<td>Migrate JIRA tickets to Spaces</td>
+<td>PR Review</td>
+<td>—</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>XYNE-5961</td>
+<td>Add RCA module</td>
+<td>PR Review</td>
+<td>Feb 10</td>
+<td>⚠ ETA breached</td>
+</tr>
+<tr class="odd">
+<td>XYNE-11288</td>
+<td>Removing Enrolment Health check</td>
+<td>PR Review</td>
+<td>—</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Blockers:</strong> - XYNE-2205 (PAUSED): Refresh token Logic fix — deployed but paused since Jan 21</p>
+<hr>
+</section>
+<section id="aman-patel" class="level3">
+<h3 class="anchored" data-anchor-id="aman-patel">Aman Patel</h3>
+<p><strong>Capacity:</strong> MEDIUM (5 active tickets)</p>
+<p><strong>Active Tickets:</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 22%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 14%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Ticket</th>
+<th>Title</th>
+<th>Stage</th>
+<th>ETA</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>XYNE-11921</td>
+<td>Fix attachment failure on ticket creation</td>
+<td>PR Review</td>
+<td>—</td>
+<td>MEDIUM priority</td>
+</tr>
+<tr class="even">
+<td>XYNE-11898</td>
+<td>Group buttons in channel and thread panels</td>
+<td>PR Review</td>
+<td>—</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>XYNE-11127</td>
+<td>Fix forward modal @ suggestion enter key issue</td>
+<td>PR Review</td>
+<td>—</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>XYNE-11750</td>
+<td>Implement Lotus mobile app header component</td>
+<td>PR Review</td>
+<td>—</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>XYNE-5272</td>
+<td>Canvas Block Action Toolbar</td>
+<td>Dev in Progress</td>
+<td>Jan 28</td>
+<td>⚠ ETA breached</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Blockers:</strong> - XYNE-6451 (PAUSED): Channel Settings in Channel Info Modal — paused since Feb 12</p>
 <hr>
 </section>
 <section id="amrit-raj" class="level3">
 <h3 class="anchored" data-anchor-id="amrit-raj">Amrit Raj</h3>
-<p><strong>Capacity:</strong> LOW</p>
-<p><strong>Active Tickets:</strong> Details not available from current data</p>
-<p><strong>Blockers:</strong> - Electron app stuck on loading page (mentioned in #xyne-spaces, Apr 7, 7:40 AM) - “No space left on device” error on Docker (mentioned in #xyne-spaces, Apr 7, 3:05 PM)</p>
-<p><strong>Notes:</strong> Multiple infrastructure issues reported. Docker disk space needs attention.</p>
+<p><strong>Capacity:</strong> MEDIUM (5 active tickets)</p>
+<p><strong>Active Tickets:</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 22%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 14%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Ticket</th>
+<th>Title</th>
+<th>Stage</th>
+<th>ETA</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>XYNE-11904</td>
+<td>Fix attachment preview opening on delete</td>
+<td>PR Review</td>
+<td>—</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>XYNE-11851</td>
+<td>Implement chat page tabs automation</td>
+<td>PR Review</td>
+<td>—</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>XYNE-11650</td>
+<td>Automate profile menu edit functionality</td>
+<td>PR Review</td>
+<td>—</td>
+<td></td>
+</tr>
+<tr class="even">
+<td>XYNE-11478</td>
+<td>Implement sidebar navigation automation</td>
+<td>PR Review</td>
+<td>—</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>XYNE-1294</td>
+<td>Test ticket creation during message editing</td>
+<td>TO_DO</td>
+<td>Jan 13</td>
+<td>⚠ ETA breached</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Blockers:</strong> None explicitly reported.</p>
+<p><strong>Notes:</strong> Mentioned Electron app stuck on loading page issue in #xyne-spaces (Apr 7).</p>
 <hr>
 </section>
 <section id="shivral-somani" class="level3">
 <h3 class="anchored" data-anchor-id="shivral-somani">Shivral Somani</h3>
-<p><strong>Capacity:</strong> LOW</p>
-<p><strong>Active Tickets:</strong> Details not available from current data</p>
-<p><strong>Blockers:</strong> - Pod stuck on AI calls (mentioned in #xyne-spaces, Apr 7, 6:37 AM) - LLM calls blocking ingestion (mentioned in #xyne-spaces, Apr 7, 8:39 AM)</p>
-<p><strong>Notes:</strong> Key blocker for Vespa ingestion. Team agreed to separate AI services into a dedicated service.</p>
+<p><strong>Capacity:</strong> MEDIUM (3 active tickets)</p>
+<p><strong>Active Tickets:</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 22%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 14%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Ticket</th>
+<th>Title</th>
+<th>Stage</th>
+<th>ETA</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>XYNE-11743</td>
+<td>Add multi sandbox environment for local AI dev</td>
+<td>PR Review</td>
+<td>—</td>
+<td>MEDIUM priority</td>
+</tr>
+<tr class="even">
+<td>XYNE-6180</td>
+<td>Liveness Probe for Workflow Runners</td>
+<td>PR Review</td>
+<td>Feb 11</td>
+<td>⚠ ETA breached</td>
+</tr>
+<tr class="odd">
+<td>XYNE-6179</td>
+<td>False Alerts</td>
+<td>Dev in Progress</td>
+<td>Feb 11</td>
+<td>⚠ ETA breached</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Blockers:</strong> None explicitly reported.</p>
+<p><strong>Notes:</strong> Active in Vespa ingestion troubleshooting — reported LLM calls blocking ingestion pods in #xyne-spaces (Apr 7).</p>
+<hr>
+</section>
+<section id="samit-barai" class="level3">
+<h3 class="anchored" data-anchor-id="samit-barai">Samit Barai</h3>
+<p><strong>Capacity:</strong> HIGH (2 active tickets)</p>
+<p><strong>Active Tickets:</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 22%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 14%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Ticket</th>
+<th>Title</th>
+<th>Stage</th>
+<th>ETA</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>XYNE-11959</td>
+<td>Optimise frontend channel loading</td>
+<td>PR Review</td>
+<td>—</td>
+<td>HIGH priority</td>
+</tr>
+<tr class="even">
+<td>XYNE-11709</td>
+<td>Collaboration on Canvas</td>
+<td>PR Review</td>
+<td>—</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Blockers:</strong> None explicitly reported.</p>
+<p><strong>Notes:</strong> Requested unassign button option for tickets in #xyne-spaces (Apr 7).</p>
 <hr>
 </section>
 <section id="mamtha-venkattaramanujam" class="level3">
 <h3 class="anchored" data-anchor-id="mamtha-venkattaramanujam">Mamtha Venkattaramanujam</h3>
-<p><strong>Capacity:</strong> MEDIUM</p>
-<p><strong>Active Tickets:</strong> Details not available from current data</p>
-<p><strong>Blockers:</strong> - Builds failing at “Evaluate Test Results” stage — waiting for read access (mentioned in #xyne-spaces, Apr 7, 1:10 PM)</p>
+<p><strong>Capacity:</strong> HIGH (2 active tickets)</p>
+<p><strong>Active Tickets:</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 22%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 14%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Ticket</th>
+<th>Title</th>
+<th>Stage</th>
+<th>ETA</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>XYNE-5394</td>
+<td>Mouse position triggers hover when Cmd K opens</td>
+<td>MERGED</td>
+<td>Feb 2</td>
+<td>⚠ ETA breached</td>
+</tr>
+<tr class="even">
+<td>XYNE-11744</td>
+<td>Add search capability to Group DMs</td>
+<td>MERGED</td>
+<td>Mar 25</td>
+<td>⚠ ETA breached</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Blockers:</strong> None explicitly reported.</p>
+<p><strong>Notes:</strong> Reported build failures in #xyne-spaces (Apr 7) — builds failing at “Evaluate Test Results” stage, local failing at Docker services.</p>
 <hr>
 </section>
-<section id="praveen-kumarkn" class="level3">
-<h3 class="anchored" data-anchor-id="praveen-kumarkn">Praveen KumarKN</h3>
-<p><strong>Capacity:</strong> MEDIUM</p>
-<p><strong>Active Tickets:</strong> Details not available from current data</p>
-<p><strong>Blockers:</strong> - Ingestion still not happening (mentioned in #xyne-spaces, Apr 7, 6:17 AM)</p>
-<p><strong>Notes:</strong> Related to the Vespa ingestion backlog (90K items).</p>
+<section id="sakshi-gupta" class="level3">
+<h3 class="anchored" data-anchor-id="sakshi-gupta">Sakshi Gupta</h3>
+<p><strong>Capacity:</strong> HIGH (2 active tickets)</p>
+<p><strong>Active Tickets:</strong></p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 22%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 14%">
+<col style="width: 22%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Ticket</th>
+<th>Title</th>
+<th>Stage</th>
+<th>ETA</th>
+<th>Status</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>DESIGNTEAM-0072</td>
+<td>Mentions in Canvas</td>
+<td>To Do</td>
+<td>Mar 24</td>
+<td>⚠ ETA breached</td>
+</tr>
+<tr class="even">
+<td>DESIGNTEAM-0040</td>
+<td>Notes Design Revamp</td>
+<td>In Progress</td>
+<td>Feb 23</td>
+<td>⚠ ETA breached</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Blockers:</strong> None explicitly reported.</p>
+<p><strong>Notes:</strong> Working on Figma designs for code block, embed block components (mentioned in #xyne-space-design, Apr 7).</p>
 <hr>
 </section>
-<section id="abhishek-verma" class="level3">
-<h3 class="anchored" data-anchor-id="abhishek-verma">Abhishek Verma</h3>
-<p><strong>Capacity:</strong> MEDIUM</p>
-<p><strong>Active Tickets:</strong> Details not available from current data</p>
-<p><strong>Blockers:</strong> - Build issue due to Jenkins storage — will deploy once resolved (mentioned in #xyne-spaces, Apr 8, 2:44 AM)</p>
+<section id="srishti-chauhan" class="level3">
+<h3 class="anchored" data-anchor-id="srishti-chauhan">Srishti Chauhan</h3>
+<p><strong>Capacity:</strong> HIGH (0 active tickets)</p>
+<p><strong>Active Tickets:</strong> None</p>
+<p><strong>Blockers:</strong> - ONETEAM-0039 (PAUSED): PAYTM v2 amount mismatch — ON HOLD EXTERNAL since Mar 26</p>
+<hr>
+</section>
+<section id="shailendra-pratap-singh" class="level3">
+<h3 class="anchored" data-anchor-id="shailendra-pratap-singh">Shailendra Pratap Singh</h3>
+<p><strong>Capacity:</strong> HIGH (0 active tickets)</p>
+<p><strong>Active Tickets:</strong> None</p>
+<p><strong>Blockers:</strong> None explicitly reported.</p>
+<p><strong>Notes:</strong> Active in Vespa/LLM troubleshooting — provided details on ActivityClassificationWorker, ticketCleanupWorker causing heap issues (Apr 7).</p>
 <hr>
 </section>
 </section>
@@ -257,100 +832,78 @@ ul.task-list li input[type="checkbox"] {
 <th>Ticket</th>
 <th>Title</th>
 <th>Priority</th>
-<th>Notes</th>
+<th>Board</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>XYNE-12101</td>
-<td>Add subteam field to user profile and table</td>
+<td>XYNE-12128</td>
+<td>Implement Call Feature Analytics</td>
 <td>CRITICAL</td>
-<td>Feature work</td>
+<td>Xyne-Spaces</td>
 </tr>
 <tr class="even">
-<td>GENIUS-0209</td>
-<td>Allow email cc parsing for domain_mid_lookup</td>
+<td>XYNE-5643</td>
+<td>Fix ticket details mobile view bug</td>
 <td>CRITICAL</td>
-<td>Integration</td>
+<td>Xyne-Spaces</td>
 </tr>
 <tr class="odd">
-<td>ARDRA-0202</td>
-<td>Create Play Store feature graphic</td>
+<td>XYNE-5535</td>
+<td>Fix mobile layout for small display settings</td>
 <td>CRITICAL</td>
-<td>Ardra project</td>
+<td>Xyne-Spaces</td>
 </tr>
 <tr class="even">
-<td>ARDRA-0201</td>
-<td>Implement SSOB functionality</td>
+<td>XYNE-5146</td>
+<td>Fix attachment aspect ratio</td>
 <td>CRITICAL</td>
-<td>Ardra project</td>
+<td>Xyne-Spaces</td>
 </tr>
 <tr class="odd">
-<td>ARDRA-0200</td>
-<td>Implement filtering functionality for admin actionable items</td>
+<td>XYNE-3540</td>
+<td>Additional Filter Fields in Boards</td>
 <td>CRITICAL</td>
-<td>Ardra project</td>
+<td>Xyne-Spaces</td>
 </tr>
 <tr class="even">
-<td>ARDRA-0198</td>
-<td>Build Policy view modal for managers</td>
+<td>ARDRA-0196</td>
+<td>Implement pagination for claims list API</td>
 <td>CRITICAL</td>
-<td>Ardra project</td>
+<td>Ardra-Design</td>
 </tr>
 <tr class="odd">
-<td>ARDRA-0187</td>
-<td>Web Issues</td>
+<td>ARDRA-0194</td>
+<td>Implement Switch User functionality for admin</td>
 <td>CRITICAL</td>
-<td>Ardra project</td>
+<td>Ardra-Design</td>
 </tr>
 <tr class="even">
-<td>ARDRA-0186</td>
-<td>Edit/Submit Claim Journey</td>
+<td>DPIP-0007</td>
+<td>Feature Dsl</td>
 <td>CRITICAL</td>
-<td>Ardra project</td>
+<td>DPIP</td>
 </tr>
 <tr class="odd">
-<td>ARDRA-0185</td>
-<td>Email Notifications</td>
+<td>AIPLATFORM-0012</td>
+<td>Intermittent No-Response / Early Termination</td>
 <td>CRITICAL</td>
-<td>Ardra project</td>
-</tr>
-<tr class="even">
-<td>INFRA-0005</td>
-<td>Deploy SSO login to production</td>
-<td>CRITICAL</td>
-<td>Infrastructure</td>
-</tr>
-<tr class="odd">
-<td>INFRA-0001</td>
-<td>Unused EBS volumes Cleanup</td>
-<td>CRITICAL</td>
-<td>Infrastructure</td>
-</tr>
-<tr class="even">
-<td>EULER-0017</td>
-<td>Global Outage Alert</td>
-<td>HIGH</td>
-<td>May need immediate triage</td>
-</tr>
-<tr class="odd">
-<td>EULER-0016</td>
-<td>Global Outage Alert</td>
-<td>HIGH</td>
-<td>May need immediate triage</td>
+<td>AI Platform</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Note:</strong> 17 additional HIGH priority tickets (ONETEAM-1446 to ONETEAM-1462) are integrity check failures across multiple gateways (PAYTM_V2, CRED, YES_BIZ, PAYU, UNLIMIT, SETU, HYPER_PG, CAMSPAY). These likely need urgent ops attention.</p>
+<p><em>…and 30 more CRITICAL tickets. Plus 150+ HIGH priority unassigned tickets (mostly auto-generated ONETEAM integrity check failures).</em></p>
+<hr>
 </section>
 <section id="blockers-needing-escalation" class="level2">
 <h2 class="anchored" data-anchor-id="blockers-needing-escalation">Blockers Needing Escalation</h2>
 <ul>
-<li><strong>Shivral Somani</strong>: Vespa ingestion blocked by AI service LLM calls in same pod — open since Apr 7. <strong>Solution approved</strong> (separate AI services), awaiting implementation.</li>
-<li><strong>Amrit Raj</strong>: Docker “no space left on device” — reported Apr 7, 3:05 PM. Recommend infra team clean up disk space.</li>
-<li><strong>Mamtha Venkattaramanujam</strong>: Builds failing at “Evaluate Test Results” — waiting for read access since Apr 7, 1:10 PM. Recommend checking permissions.</li>
-<li><strong>Abhishek Verma</strong>: Jenkins storage issue blocking deployment — reported Apr 8, 2:44 AM. Needs infra attention.</li>
+<li><strong>Vespa Ingestion Backlog (CRITICAL):</strong> LLM calls from ActivityClassificationWorker, ticketCleanupWorker, proactiveNudge blocking ingestion pods. Shivral Somani and Shailendra Pratap Singh investigating. Recommend creating dedicated AI service to resolve backlog.</li>
+<li><strong>ONETEAM Payment Gateway Issues:</strong> Multiple ONETEAM tickets (ONETEAM-0039, ONETEAM-0799, ONETEAM-0836, ONETEAM-0873) stuck ON_HOLD_EXTERNAL for 2+ weeks. Escalation to external parties needed.</li>
+<li><strong>SEV2 Transaction Alerts:</strong> icicipru, upstox/Bandhan Bank, Lazypay transactions stuck in STARTED state — automated alerts firing but resolution unclear.</li>
+<li><strong>Build Pipeline Failures:</strong> Mamtha reported builds failing at Docker services stage. Branches affected: <code>fix/devqa-xyne-feature-smart-from-in-operators</code>, <code>fix/fix-file-mimetype</code>.</li>
 </ul>
+<hr>
 </section>
 <section id="capacity-summary" class="level2">
 <h2 class="anchored" data-anchor-id="capacity-summary">Capacity Summary</h2>
@@ -361,110 +914,90 @@ ul.task-list li input[type="checkbox"] {
 <th>Active</th>
 <th>Blocked</th>
 <th>Capacity</th>
-<th>Notes</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Ankur Mohan Abraham</td>
-<td>1</td>
+<td>Satvik Batra</td>
+<td>13</td>
 <td>0</td>
-<td>MEDIUM</td>
-<td>ETA breached</td>
+<td>LOW ⚠</td>
 </tr>
 <tr class="even">
-<td>Navipriya S</td>
+<td>Praveen KumarKN</td>
+<td>8</td>
 <td>0</td>
-<td>2</td>
-<td>MEDIUM</td>
-<td>Both paused, ETAs breached</td>
+<td>LOW</td>
 </tr>
 <tr class="odd">
 <td>Prakhar Agarwal</td>
-<td>1</td>
+<td>7</td>
 <td>0</td>
-<td>MEDIUM</td>
-<td>ETA breached</td>
+<td>LOW</td>
 </tr>
 <tr class="even">
-<td>Amrit Raj</td>
-<td>—</td>
-<td>2</td>
+<td>Sayantan Paul</td>
+<td>5</td>
+<td>1</td>
 <td>LOW</td>
-<td>Multiple infra blockers</td>
 </tr>
 <tr class="odd">
+<td>Navipriya S</td>
+<td>5</td>
+<td>1</td>
+<td>MEDIUM</td>
+</tr>
+<tr class="even">
+<td>Aman Patel</td>
+<td>5</td>
+<td>1</td>
+<td>MEDIUM</td>
+</tr>
+<tr class="odd">
+<td>Amrit Raj</td>
+<td>5</td>
+<td>0</td>
+<td>MEDIUM</td>
+</tr>
+<tr class="even">
 <td>Shivral Somani</td>
-<td>—</td>
+<td>3</td>
+<td>0</td>
+<td>MEDIUM</td>
+</tr>
+<tr class="odd">
+<td>Samit Barai</td>
 <td>2</td>
-<td>LOW</td>
-<td>Vespa ingestion affected</td>
+<td>0</td>
+<td>HIGH</td>
 </tr>
 <tr class="even">
 <td>Mamtha Venkattaramanujam</td>
-<td>—</td>
-<td>1</td>
-<td>MEDIUM</td>
-<td>Build permissions issue</td>
+<td>2</td>
+<td>0</td>
+<td>HIGH</td>
 </tr>
 <tr class="odd">
-<td>Praveen KumarKN</td>
-<td>—</td>
-<td>1</td>
-<td>MEDIUM</td>
-<td>Ingestion issue</td>
+<td>Sakshi Gupta</td>
+<td>2</td>
+<td>0</td>
+<td>HIGH</td>
 </tr>
 <tr class="even">
-<td>Abhishek Verma</td>
-<td>—</td>
+<td>Srishti Chauhan</td>
+<td>0</td>
 <td>1</td>
-<td>MEDIUM</td>
-<td>Jenkins storage</td>
+<td>HIGH</td>
+</tr>
+<tr class="odd">
+<td>Shailendra Pratap Singh</td>
+<td>0</td>
+<td>0</td>
+<td>HIGH</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Note:</strong> Assignee data for STARTED tickets was not fully available. Capacity estimates for some team members are based on blocker reports only. Recommend refreshing data with full assignee information.</p>
-</section>
-<section id="key-metrics" class="level2">
-<h2 class="anchored" data-anchor-id="key-metrics">Key Metrics</h2>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Metric</th>
-<th>Count</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Total STARTED tickets</td>
-<td>50</td>
-</tr>
-<tr class="even">
-<td>Total PAUSED tickets</td>
-<td>50</td>
-</tr>
-<tr class="odd">
-<td>Breached ETAs</td>
-<td>6</td>
-</tr>
-<tr class="even">
-<td>Unassigned CRITICAL</td>
-<td>20</td>
-</tr>
-<tr class="odd">
-<td>Unassigned HIGH</td>
-<td>20</td>
-</tr>
-<tr class="even">
-<td>Active blockers reported</td>
-<td>6</td>
-</tr>
-<tr class="odd">
-<td>Integrity check failures</td>
-<td>17</td>
-</tr>
-</tbody>
-</table>
+<p><strong>Total Active:</strong> 57 | <strong>Total Blocked:</strong> 4 | <strong>Total Breached ETAs:</strong> 44</p>
 </section>
 
 </main>
