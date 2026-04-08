@@ -1,0 +1,166 @@
+---
+title: Daily Workload Report — 2026-04-08
+date: 2026-04-08
+cadence: daily
+generated_at: 2026-04-08T10:02:21.527Z
+toc: true
+toc-depth: 3
+format: html
+---
+
+## Summary
+There are **50 active (STARTED) tickets** and **50 paused tickets** in the system. **6 tickets have breached their ETAs**, with 2 still in STARTED status. **40 unassigned tickets** have HIGH or CRITICAL priority, including **17 integrity check failures** that need urgent ops attention. **6 active blockers** were reported in team discussions over the last 2 days, primarily around infrastructure (Vespa ingestion, Docker storage, Jenkins builds). The top concern is the Vespa ingestion bottleneck caused by AI service co-location — a fix has been approved.
+
+## Team Workload
+
+### Ankur Mohan Abraham
+**Capacity:** MEDIUM
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-123 | Test ticket | TO_DO | Dec 8, 2025 | ⚠ ETA breached |
+
+**Notes:** This ticket has been STARTED since December 2025 with a missed ETA. May need follow-up.
+
+---
+
+### Navipriya S
+**Capacity:** MEDIUM
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-2205 | Refresh token Logic fix | Deployed | Jan 21, 2026 | PAUSED — ETA breached |
+| XYNE-9996 | Implement MTLS in native module | To be Picked Up | Mar 3, 2026 | PAUSED — ETA breached |
+
+**Notes:** Two paused tickets with breached ETAs. Both appear blocked on external dependencies.
+
+---
+
+### Prakhar Agarwal
+**Capacity:** MEDIUM
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-9400 | Implement user email signatures and database storage | PR Review | Feb 26, 2026 | ⚠ ETA breached |
+
+**Notes:** Ticket is in PR Review but ETA was Feb 26. May need merge prioritization.
+
+---
+
+### Amrit Raj
+**Capacity:** LOW
+
+**Active Tickets:** Details not available from current data
+
+**Blockers:**
+- Electron app stuck on loading page (mentioned in #xyne-spaces, Apr 7, 7:40 AM)
+- "No space left on device" error on Docker (mentioned in #xyne-spaces, Apr 7, 3:05 PM)
+
+**Notes:** Multiple infrastructure issues reported. Docker disk space needs attention.
+
+---
+
+### Shivral Somani
+**Capacity:** LOW
+
+**Active Tickets:** Details not available from current data
+
+**Blockers:**
+- Pod stuck on AI calls (mentioned in #xyne-spaces, Apr 7, 6:37 AM)
+- LLM calls blocking ingestion (mentioned in #xyne-spaces, Apr 7, 8:39 AM)
+
+**Notes:** Key blocker for Vespa ingestion. Team agreed to separate AI services into a dedicated service.
+
+---
+
+### Mamtha Venkattaramanujam
+**Capacity:** MEDIUM
+
+**Active Tickets:** Details not available from current data
+
+**Blockers:**
+- Builds failing at "Evaluate Test Results" stage — waiting for read access (mentioned in #xyne-spaces, Apr 7, 1:10 PM)
+
+---
+
+### Praveen KumarKN
+**Capacity:** MEDIUM
+
+**Active Tickets:** Details not available from current data
+
+**Blockers:**
+- Ingestion still not happening (mentioned in #xyne-spaces, Apr 7, 6:17 AM)
+
+**Notes:** Related to the Vespa ingestion backlog (90K items).
+
+---
+
+### Abhishek Verma
+**Capacity:** MEDIUM
+
+**Active Tickets:** Details not available from current data
+
+**Blockers:**
+- Build issue due to Jenkins storage — will deploy once resolved (mentioned in #xyne-spaces, Apr 8, 2:44 AM)
+
+---
+
+## Unassigned Critical Tickets
+
+| Ticket | Title | Priority | Notes |
+|--------|-------|----------|-------|
+| XYNE-12101 | Add subteam field to user profile and table | CRITICAL | Feature work |
+| GENIUS-0209 | Allow email cc parsing for domain_mid_lookup | CRITICAL | Integration |
+| ARDRA-0202 | Create Play Store feature graphic | CRITICAL | Ardra project |
+| ARDRA-0201 | Implement SSOB functionality | CRITICAL | Ardra project |
+| ARDRA-0200 | Implement filtering functionality for admin actionable items | CRITICAL | Ardra project |
+| ARDRA-0198 | Build Policy view modal for managers | CRITICAL | Ardra project |
+| ARDRA-0187 | Web Issues | CRITICAL | Ardra project |
+| ARDRA-0186 | Edit/Submit Claim Journey | CRITICAL | Ardra project |
+| ARDRA-0185 | Email Notifications | CRITICAL | Ardra project |
+| INFRA-0005 | Deploy SSO login to production | CRITICAL | Infrastructure |
+| INFRA-0001 | Unused EBS volumes Cleanup | CRITICAL | Infrastructure |
+| EULER-0017 | Global Outage Alert | HIGH | May need immediate triage |
+| EULER-0016 | Global Outage Alert | HIGH | May need immediate triage |
+
+**Note:** 17 additional HIGH priority tickets (ONETEAM-1446 to ONETEAM-1462) are integrity check failures across multiple gateways (PAYTM_V2, CRED, YES_BIZ, PAYU, UNLIMIT, SETU, HYPER_PG, CAMSPAY). These likely need urgent ops attention.
+
+## Blockers Needing Escalation
+
+- **Shivral Somani**: Vespa ingestion blocked by AI service LLM calls in same pod — open since Apr 7. **Solution approved** (separate AI services), awaiting implementation.
+- **Amrit Raj**: Docker "no space left on device" — reported Apr 7, 3:05 PM. Recommend infra team clean up disk space.
+- **Mamtha Venkattaramanujam**: Builds failing at "Evaluate Test Results" — waiting for read access since Apr 7, 1:10 PM. Recommend checking permissions.
+- **Abhishek Verma**: Jenkins storage issue blocking deployment — reported Apr 8, 2:44 AM. Needs infra attention.
+
+## Capacity Summary
+
+| Person | Active | Blocked | Capacity | Notes |
+|--------|--------|---------|----------|-------|
+| Ankur Mohan Abraham | 1 | 0 | MEDIUM | ETA breached |
+| Navipriya S | 0 | 2 | MEDIUM | Both paused, ETAs breached |
+| Prakhar Agarwal | 1 | 0 | MEDIUM | ETA breached |
+| Amrit Raj | — | 2 | LOW | Multiple infra blockers |
+| Shivral Somani | — | 2 | LOW | Vespa ingestion affected |
+| Mamtha Venkattaramanujam | — | 1 | MEDIUM | Build permissions issue |
+| Praveen KumarKN | — | 1 | MEDIUM | Ingestion issue |
+| Abhishek Verma | — | 1 | MEDIUM | Jenkins storage |
+
+**Note:** Assignee data for STARTED tickets was not fully available. Capacity estimates for some team members are based on blocker reports only. Recommend refreshing data with full assignee information.
+
+## Key Metrics
+
+| Metric | Count |
+|--------|-------|
+| Total STARTED tickets | 50 |
+| Total PAUSED tickets | 50 |
+| Breached ETAs | 6 |
+| Unassigned CRITICAL | 20 |
+| Unassigned HIGH | 20 |
+| Active blockers reported | 6 |
+| Integrity check failures | 17 |
