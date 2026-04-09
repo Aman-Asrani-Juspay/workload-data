@@ -1,0 +1,529 @@
+---
+title: Daily Workload Report — 2026-04-09
+date: 2026-04-09
+cadence: daily
+generated_at: 2026-04-09T10:48:54.206Z
+toc: true
+toc-depth: 3
+format: html
+---
+
+## Summary
+
+Across the Xyne Spaces project, there are **~120 active XYNE-** STARTED tickets, **13 PAUSED** tickets, and **9 tickets with breached ETAs** (some overdue by 45+ days). There are **29 CRITICAL** and **~15 HIGH** unassigned TODO tickets that need triage. Two key areas need management attention today: **Prakhar Agarwal** has 8 active tickets including 2 with breached ETAs (XYNE-8494 overdue since Feb 23, XYNE-10023 overdue since Mar 16), and **Archit Narayan** has 4 PAUSED tickets (including CRITICAL XYNE-704 — Files tab crashing — stalled since Dec 2025). No release blockers were flagged in the xyne-spaces channel as of Apr 8.
+
+## Team Workload
+
+### Prakhar Agarwal
+**Capacity:** LOW (load: 11.0)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Priority |
+|--------|-------|-------|-----|----------|
+| XYNE-8494 | Display user active status | PR Review | Feb 23 | ⚠ ETA risk |
+| XYNE-10023 | Update user status to 'in a call' during active calls | PR Review | Mar 16 | ⚠ ETA risk |
+| XYNE-12046 | Open Xyne Spaces links in app | PR Review | — | LOW |
+| XYNE-11991 | Add request-to-join for ongoing channel calls | PR Review | — | LOW |
+| XYNE-11724 | Add visual placeholder to kanban columns | PR Review | — | LOW |
+| XYNE-9234 | Show rejected ticket state and handle escape sequences | Dev in Progress | — | LOW |
+| XYNE-7535 | Implement mobile search scroll behavior and fix UI | PR Review | — | LOW |
+| XYNE-11653 | Fix user search skipping exact name matches | Dev in Progress | — | LOW |
+
+**Blockers:** None explicitly reported.
+
+**Notes:** Two ETA-breached tickets (XYNE-8494 — 45 days overdue, XYNE-10023 — 24 days overdue). Both are in PR Review, suggesting they may be stuck on reviewer availability.
+
+---
+
+### Milind Pithadia
+**Capacity:** LOW (load: 8.5)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Priority |
+|--------|-------|-------|-----|----------|
+| XYNE-8317 | Threads feature Backlog: UX and Navigation Issues | PR Review | Feb 20 | ⚠ ETA risk, HIGH |
+| XYNE-12034 | Refactor native app chat UI | To be Picked Up | — | LOW |
+| XYNE-11937 | Implement native app DM message actions | To be Picked Up | — | LOW |
+| XYNE-11906 | Update message actions in native app | To be Picked Up | — | LOW |
+| XYNE-11867 | Fix native app activity message rendering | To be Picked Up | — | LOW |
+| XYNE-11849 | Fix custom emoji display in native app | To be Picked Up | — | LOW |
+| XYNE-11811 | Apply pending native app changes to main | PR Review | — | LOW |
+
+**Blockers:** None explicitly reported.
+
+**Notes:** XYNE-8317 is HIGH priority with a Feb 20 ETA (48 days overdue). 5 of 7 tickets are in "To be Picked Up" stage — may indicate context-switching or capacity constraints.
+
+---
+
+### Suryansh Srivastava
+**Capacity:** LOW (load: 9.5)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Priority |
+|--------|-------|-------|-----|----------|
+| XYNE-9402 | Grant board edit permissions to project admins | PR Review | Feb 26 | ⚠ ETA risk |
+| XYNE-9105 | Automate resource creation and validation on startup | Dev in Progress | Feb 25 | ⚠ ETA risk |
+| XYNE-8242 | Enable group management for non-admin managers | PR Review | Feb 20 | ⚠ ETA risk |
+| XYNE-9266 | Exclude QA roles from auto-assignment | Dev in Progress | — | LOW |
+| XYNE-8107 | Implement Archival Mechanism for Inactive Projects | In Progress | — | LOW |
+
+**Blockers:** None explicitly reported.
+
+**Notes:** 3 tickets have breached ETAs (all 6+ weeks overdue). Heavy workload with multiple long-running items.
+
+---
+
+### Satvik Batra
+**Capacity:** LOW (load: 5.0)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Priority |
+|--------|-------|-------|-----|----------|
+| XYNE-12136 | Stacking bottom of new messages to a new user | PR Review | — | LOW |
+| XYNE-12090 | Auto-open add people dialog on channel creation | PR Review | — | MEDIUM |
+| XYNE-12059 | Xyne compatibility for Github | PR Review | — | LOW |
+| XYNE-12050 | Move ticket from incorrect channel to correct one | PR Review | — | LOW |
+| XYNE-12048 | Implement walkthrough feature in Spaces | PR Review | — | LOW |
+
+**Blockers:** None.
+
+---
+
+### Ameer Noufil
+**Capacity:** LOW (load: 5.0)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Priority |
+|--------|-------|-------|-----|----------|
+| XYNE-12148 | Migrate SpotBot to new system | To be Picked Up | — | MEDIUM |
+| XYNE-11853 | Fix: Random Mobile Logouts | To be Picked Up | — | LOW |
+| XYNE-11779 | Sam - Xyne Integration | Dev in Progress | — | MEDIUM |
+| XYNE-11630 | Fix PR validation regex for multiple prefixes | To be Picked Up | — | LOW |
+| XYNE-11568 | Jenkins release branch fix! | To be Picked Up | — | LOW |
+
+**Blockers:** None.
+
+---
+
+### Amitava Chakrabarti
+**Capacity:** LOW (load: 4.0)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Priority |
+|--------|-------|-------|-----|----------|
+| XYNE-12109 | Display deleted attachment note like Slack | PR Review | — | MEDIUM |
+| XYNE-12016 | Add direct DM creation from search bar | PR Review | — | MEDIUM |
+| XYNE-11943 | Fix intermittent image and video upload failures | Dev in Progress | — | MEDIUM |
+| XYNE-11888 | Add Canvas Versioning | Dev in Progress | — | LOW |
+
+**Blockers:** None.
+
+---
+
+### Siraj Shaik
+**Capacity:** LOW (load: 4.0)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Priority |
+|--------|-------|-------|-----|----------|
+| XYNE-12084 | Message BOT | PR Review | — | HIGH |
+| XYNE-10434 | Custom Profile Picture & Editable Display Name | PR Review | — | LOW |
+| XYNE-7469 | Rename Status to Status Category and add Stages filter | Dev in Progress | — | LOW |
+| XYNE-7386 | Include created tickets in KanbanBoardScreen view | Dev in Progress | — | LOW |
+
+**Blockers:** None.
+
+---
+
+### Sithaarth M
+**Capacity:** LOW (load: 5.5)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Priority |
+|--------|-------|-------|-----|----------|
+| XYNE-8811 | Implement background notification caching (Android/iOS) | Dev in Progress | Feb 24 | ⚠ ETA risk, LOW |
+| XYNE-12017 | Add notification for new channel/group members | PR Review | — | LOW |
+| XYNE-11652 | Implement automation workflow and bot for IT admin | PR Review | — | LOW |
+| XYNE-10397 | iOS call duplicate session fix | PR Review | — | LOW |
+
+**Blockers:** None.
+
+---
+
+### Rahul Kumar
+**Capacity:** LOW (load: 4.0)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Priority |
+|--------|-------|-------|-----|----------|
+| XYNE-12079 | Integrate expense agent mcp | PR Review | — | LOW |
+| XYNE-11954 | Added workspace and repo clone in xyne-claw | PR Review | — | LOW |
+| XYNE-11820 | Providing preview/code in readmeviewer | PR Review | — | LOW |
+| XYNE-5463 | UX issue on message layout | STARTED | — | LOW |
+
+**Blockers:** None.
+
+---
+
+### Navipriya S
+**Capacity:** LOW (load: 5.0)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Priority |
+|--------|-------|-------|-----|----------|
+| XYNE-12115 | Moving jira migration to /migrate prefix api | PR Review | — | LOW |
+| XYNE-11968 | Tickets in Boards taking time to render | QA Testing | — | MEDIUM |
+| XYNE-5961 | Add RCA module | PR Review | — | LOW |
+| XYNE-11288 | Removing Enrolment Health check | PR Review | — | LOW |
+
+**Blockers:**
+- XYNE-9996: Implement MTLS in native module (PAUSED, To be Picked Up)
+- XYNE-2205: Refresh token Logic fix (PAUSED, Deployed stage)
+
+---
+
+### Sayantan Paul
+**Capacity:** LOW (load: 4.5)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Priority |
+|--------|-------|-------|-----|----------|
+| XYNE-10934 | Fix call modals focus, timezone display, search | PR Review | — | MEDIUM |
+| XYNE-10633 | Change default landing screen to DMs | Dev in Progress | — | LOW |
+| XYNE-7834 | Expand search to include new users beyond interactions | QA Testing | — | LOW |
+| XYNE-5832 | Mobile Activity Transition & Activity Tab Overflow | To be Picked Up | — | LOW |
+
+**Blockers:**
+- XYNE-9409: Consistency chat experience across all conversations (PAUSED)
+
+---
+
+### Aditya Shekhar Tiwary
+**Capacity:** MEDIUM (load: 3.5)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Priority |
+|--------|-------|-------|-----|----------|
+| XYNE-12031 | Fix activity time showing wrong dates | PR Review | — | LOW |
+| XYNE-11926 | Add support for recurring call instances upto 60 days | Dev in Progress | — | LOW |
+| XYNE-11878 | Fix edit functionality for recurring call series | Dev in Progress | — | LOW |
+
+**Blockers:**
+- XYNE-5794: Differentiate message senders visually in chat (PAUSED, Merged stage)
+
+---
+
+### Archit Narayan
+**Capacity:** LOW (load: 5.5)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Priority |
+|--------|-------|-------|-----|----------|
+| XYNE-9492 | Pass blockId in AI generated canvas | PR Review | — | LOW |
+| XYNE-8261 | Trigger notifications when pasting mentions in Canvas | PR Review | Feb 20 | ⚠ ETA risk, LOW |
+
+**Blockers:**
+- XYNE-704: Files tab crashing (PAUSED, CRITICAL, AI_PICKED_UP stage since Dec 2025)
+- XYNE-1295: Thread replies not visible in mobile (PAUSED, AI_PICKED_UP)
+- XYNE-820: UI in ticket modal (PAUSED, Deployed stage)
+- XYNE-871: Drag Drop is not working sometimes in status view (PAUSED, TO_DO)
+
+**Notes:** XYNE-704 is CRITICAL and has been stalled since December. Needs immediate attention.
+
+---
+
+### Aman Patel
+**Capacity:** LOW (load: 5.0)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Priority |
+|--------|-------|-------|-----|----------|
+| XYNE-11921 | Fix attachment failure on ticket creation | PR Review | — | LOW |
+| XYNE-11898 | Group buttons in channel and thread panels | PR Review | Apr 9 | ⚠ ETA risk, LOW |
+| XYNE-7966 | Implement backend for saving user ticket filter preferences | Dev in Progress | — | LOW |
+
+**Blockers:**
+- XYNE-6451: Channel Settings in Channel Info Modal (PAUSED)
+
+---
+
+### Aayush Shah
+**Capacity:** LOW (load: 4.5)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Priority |
+|--------|-------|-------|-----|----------|
+| XYNE-7830 | Implement Smart Message Follow-Up | Dev in Progress | Feb 18 | ⚠ ETA risk, HIGH |
+| XYNE-7385 | Set ticket clean description worker default to false | PR Review | — | LOW |
+| XYNE-6477 | Implement LLMClient for ActivityClassification | Dev in Progress | — | LOW |
+
+**Blockers:** None.
+
+---
+
+### Harsh Sharma
+**Capacity:** LOW (load: 4.5)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Priority |
+|--------|-------|-------|-----|----------|
+| XYNE-10153 | Add Markdown support for message content | PR Review | Mar 4 | ⚠ ETA risk, LOW |
+| XYNE-5358 | Fix usePlatform hook edge cases | TO_DO | — | LOW |
+| XYNE-5264 | Bump version of dashboard for easier tracking | TO_DO | — | LOW |
+
+**Blockers:** None.
+
+---
+
+### Other Team Members (MEDIUM/HIGH Capacity)
+
+### Utkarsh Pandey
+**Capacity:** HIGH (load: 1.5)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Priority |
+|--------|-------|-------|-----|----------|
+| XYNE-5419 | Implement rate limiting for Zero queries/mutations | TO_DO | — | LOW |
+
+**Blockers:**
+- XYNE-5646: Add update button when new bundle is detected (PAUSED)
+
+---
+
+### Harshpreet Singh
+**Capacity:** HIGH (load: 1.0)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Priority |
+|--------|-------|-------|-----|----------|
+| XYNE-12089 | Fix thread disappearing when opening conversation | To be Picked Up | — | HIGH |
+
+**Blockers:** None.
+
+---
+
+### Piyush Kesharwani
+**Capacity:** MEDIUM (load: 3.0)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Priority |
+|--------|-------|-------|-----|----------|
+| XYNE-11716 | Implement organization and workspace management | PR Review | — | LOW |
+| XYNE-10402 | Tickets Archive | PR Review | — | LOW |
+| XYNE-7030 | Board Configuration Redesign | PR Review | — | LOW |
+
+**Blockers:** None.
+
+---
+
+### Shivral Somani
+**Capacity:** MEDIUM (load: 3.0)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Priority |
+|--------|-------|-------|-----|----------|
+| XYNE-11743 | Add multi sandbox environment for local AI dev | To be Picked Up | — | MEDIUM |
+| XYNE-6180 | Liveness Probe for Workflow Runners | PR Review | — | LOW |
+| XYNE-6179 | False Alerts (503 from godel endpoints) | Dev in Progress | — | LOW |
+
+**Blockers:** None.
+
+---
+
+### Chinmay Singh
+**Capacity:** MEDIUM (load: 3.0)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Priority |
+|--------|-------|-----|---|----------|
+| XYNE-12118 | Add caching to paginated queries | PR Review | — | LOW |
+| XYNE-11940 | Fix search in DMs page | PR Review | — | LOW |
+| XYNE-11637 | Adding updatedBy state in indexed db | PR Review | — | LOW |
+
+**Blockers:** None.
+
+---
+
+### Yash Gupta
+**Capacity:** MEDIUM (load: 3.0)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Priority |
+|--------|-------|-------|-----|----------|
+| XYNE-2268 | Support to call jenkins build in workflows | TO_DO | — | LOW |
+| XYNE-1429 | Add support to promote groupDM to Channel | TO_DO | — | LOW |
+| XYNE-96 | Canvas invoke from top | Debugging | — | LOW |
+
+**Blockers:** None.
+
+---
+
+### ANURAG DWIVEDI
+**Capacity:** MEDIUM (load: 2.0)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Priority |
+|--------|-------|-------|-----|----------|
+| XYNE-12002 | Xyne Claw | PR Review | — | LOW |
+| XYNE-90 | Hover bug in sidebar tabs | Debugging | — | LOW |
+
+**Blockers:** None.
+
+---
+
+### Aman Asrani
+**Capacity:** MEDIUM (load: 2.5)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Priority |
+|--------|-------|-------|-----|----------|
+| XYNE-9441 | Recompute ticket and status ETAs upon board transfer | PR Review | Feb 27 | ⚠ ETA risk, LOW |
+
+**Blockers:** None.
+
+---
+
+### Drishtant Kaushal
+**Capacity:** MEDIUM (load: 2.5)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Priority |
+|--------|-------|-------|-----|----------|
+| XYNE-9481 | Excalidraw MCP for Ask AI | PR Review | Mar 4 | ⚠ ETA risk, LOW |
+
+**Blockers:** None.
+
+---
+
+### ANUSHA D
+**Capacity:** MEDIUM (load: 2.5)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Priority |
+|--------|-------|-------|-----|----------|
+| XYNE-9675 | Add host controls for muting participants | Dev in Progress | Mar 2 | ⚠ ETA risk, LOW |
+
+**Blockers:** None.
+
+---
+
+## Unassigned Critical Tickets
+
+| Ticket | Title | Priority | Stage |
+|--------|-------|----------|-------|
+| XYNE-12128 | Implement Call Feature Analytics | CRITICAL | To be Picked Up |
+| XYNE-5643 | Fix ticket details mobile view bug | CRITICAL | To be Picked Up |
+| XYNE-5535 | Fix mobile layout for small display settings | CRITICAL | To be Picked Up |
+| XYNE-5146 | Fix attachment aspect ratio | CRITICAL | TO_DO |
+| XYNE-4389 | Show optional fields in the ticket details page | CRITICAL | TO_DO |
+| XYNE-3540 | Additional Filter Fields in Boards | CRITICAL | TO_DO |
+| XYNE-1972 | Reduce tickets page load latency | CRITICAL | TO_DO |
+| XYNE-1314 | Fix scrolling in create new DM user list | CRITICAL | TO_DO |
+| XYNE-1313 | Fix mobile scrolling on search screen | CRITICAL | TO_DO |
+| XYNE-12152 | Add attachment support to spaces-send-message MCP tool | HIGH | To be Picked Up |
+| XYNE-12143 | Google Workspace MCP Integration for BD Team | HIGH | To be Picked Up |
+
+## Blockers Needing Escalation
+
+- **Archit Narayan** (XYNE-704): Files tab crashing — CRITICAL ticket in PAUSED/AI_PICKED_UP state since Dec 2025. This is 4+ months stale. Recommend reassigning or escalating.
+- **Prakhar Agarwal** (XYNE-8494, XYNE-10023): Two active tickets with ETAs breached by 24-45 days. Both are in PR Review — may be waiting on reviewers. Recommend checking reviewer availability.
+- **Suryansh Srivastava** (XYNE-9402, XYNE-9105, XYNE-8242): Three tickets with ETAs breached by 6+ weeks. Heavy load (9.5) may be causing delays.
+- **Aayush Shah** (XYNE-7830): Smart Message Follow-Up — HIGH priority, ETA breached since Feb 18 (50 days). Needs attention.
+- **Navipriya S** (XYNE-9996, XYNE-2205): Two PAUSED tickets, one MTLS implementation stuck in "To be Picked Up" with a Mar 3 ETA.
+- **ONETEAM**: Multiple PAUSED tickets ON HOLD EXTERNAL — blocked on banks/PG providers. ONETEAM-0161 (NPD-374) has been on hold since Mar 19 with ETA breached.
+
+## Capacity Summary
+
+| Person | Active | Blocked | weighted_load | Capacity |
+|--------|--------|---------|---------------|----------|
+| Prakhar Agarwal | 8 | 0 | 11.0 | LOW |
+| Suryansh Srivastava | 5 | 0 | 9.5 | LOW |
+| Milind Pithadia | 7 | 0 | 8.5 | LOW |
+| Sithaarth M | 4 | 0 | 5.5 | LOW |
+| Archit Narayan | 2 | 4 | 5.5 | LOW |
+| Satvik Batra | 5 | 0 | 5.0 | LOW |
+| Ameer Noufil | 5 | 0 | 5.0 | LOW |
+| Navipriya S | 4 | 2 | 5.0 | LOW |
+| Aman Patel | 3 | 1 | 5.0 | LOW |
+| Aayush Shah | 3 | 0 | 4.5 | LOW |
+| Sayantan Paul | 4 | 1 | 4.5 | LOW |
+| Harsh Sharma | 3 | 0 | 4.5 | LOW |
+| Amitava Chakrabarti | 4 | 0 | 4.0 | LOW |
+| Siraj Shaik | 4 | 0 | 4.0 | LOW |
+| Rahul Kumar | 4 | 0 | 4.0 | LOW |
+| Aditya Shekhar Tiwary | 3 | 1 | 3.5 | MEDIUM |
+| Piyush Kesharwani | 3 | 0 | 3.0 | MEDIUM |
+| Shivral Somani | 3 | 0 | 3.0 | MEDIUM |
+| Chinmay Singh | 3 | 0 | 3.0 | MEDIUM |
+| Yash Gupta | 3 | 0 | 3.0 | MEDIUM |
+| Himansh Varma | 2 | 0 | 2.0 | MEDIUM |
+| Radheyshree Agrawal | 2 | 0 | 2.0 | MEDIUM |
+| Devesh Prakash | 2 | 0 | 2.0 | MEDIUM |
+| Krishan Saini | 2 | 0 | 2.0 | MEDIUM |
+| ANURAG DWIVEDI | 2 | 0 | 2.0 | MEDIUM |
+| ANUSHA D | 1 | 0 | 2.5 | MEDIUM |
+| Drishtant Kaushal | 1 | 0 | 2.5 | MEDIUM |
+| Aman Asrani | 1 | 0 | 2.5 | MEDIUM |
+| Utkarsh Pandey | 1 | 1 | 1.5 | HIGH |
+| Harshpreet Singh | 1 | 0 | 1.0 | HIGH |
+| Samit Barai | 1 | 0 | 1.0 | HIGH |
+| Prajwal Prasad | 1 | 0 | 1.0 | HIGH |
+| Shubham Dhamija | 1 | 0 | 1.0 | HIGH |
+| Anirudh Naruka | 1 | 0 | 1.0 | HIGH |
+| Abhinav Srivastava | 1 | 0 | 1.0 | HIGH |
+| Mohankumar Malapureddy | 1 | 0 | 1.0 | HIGH |
+| Mayank Gupta | 1 | 0 | 1.0 | HIGH |
+| Sumant Tirkey | 1 | 0 | 1.0 | HIGH |
+| Amrit Raj | 1 | 0 | 1.0 | HIGH |
+| Chandan Dogra | 1 | 0 | 1.0 | HIGH |
+
+## Assignment Suggestions
+
+| Ticket | Title | Priority | Suggested Assignee | Capacity | Rationale |
+|--------|-------|----------|--------------------|----------|-----------|
+| XYNE-12128 | Implement Call Feature Analytics | CRITICAL | Abhinav Srivastava | HIGH (load: 1.0) | MEDIUM expertise: completed XYNE-8879 (call analytics bug fix) |
+| XYNE-5643 | Fix ticket details mobile view bug | CRITICAL | Harshpreet Singh | HIGH (load: 1.0) | No prior expertise found; lowest load among available HIGH-capacity members |
+| XYNE-5535 | Fix mobile layout for small display settings | CRITICAL | Samit Barai | HIGH (load: 1.0) | No prior expertise found; lowest load among available HIGH-capacity members |
+| XYNE-1314 | Fix scrolling in create new DM user list | CRITICAL | Utkarsh Pandey | HIGH (load: 1.5) | No prior expertise found; available with HIGH capacity |
+| XYNE-1313 | Fix mobile scrolling on search screen | CRITICAL | Prajwal Prasad | HIGH (load: 1.0) | No prior expertise found; lowest load among available HIGH-capacity members |
+| XYNE-5146 | Fix attachment aspect ratio | CRITICAL | Amitava Chakrabarti | LOW (load: 4.0) | MEDIUM expertise: working on XYNE-11943 (intermittent image/video upload failures); but LOW capacity |
+| XYNE-4389 | Show optional fields in the ticket details page | CRITICAL | Piyush Kesharwani | MEDIUM (load: 3.0) | MEDIUM expertise: completed XYNE-1940 (fix scrolling on create ticket modal) |
+| XYNE-3540 | Additional Filter Fields in Boards | CRITICAL | Piyush Kesharwani | MEDIUM (load: 3.0) | MEDIUM expertise: completed XYNE-7030 (Board Configuration Redesign); also completed XYNE-1940 |
+| XYNE-1972 | Reduce tickets page load latency | CRITICAL | — | — | No team member currently has capacity with relevant expertise. Needs manual assignment. |
+| XYNE-12152 | Add attachment support to spaces-send-message MCP tool | HIGH | ANURAG DWIVEDI | MEDIUM (load: 2.0) | MEDIUM expertise: completed XYNE-5665 (Google Realtime STT integration); working on XYNE-11825 (Dashboard MCP) |
+| XYNE-12143 | Google Workspace MCP Integration for BD Team | HIGH | ANURAG DWIVEDI | MEDIUM (load: 2.0) | MEDIUM expertise: completed XYNE-5665 (Google Realtime STT); working on Dashboard MCP integration |
+
+> These are suggestions only. This agent does not modify tickets.
+
+## Key Signals from Messages (Apr 7-9)
+
+- **No release blockers** in xyne-spaces as of Apr 8 (confirmed by Mahek and Shubham in #xyne-spaces)
+- **Vespa reliability issue**: Aniket shared RCA — ingestion client has no backpressure/batching, causing failures at scale. 69K+ jobs waiting in queue (Praveen, Apr 8)
+- **Hardware blocker for Data stack**: HDD machine issues in namma-cloud-on-premise; vendor engineers investigating (Venkateswaran, Apr 9)
+- **SEV2 alerts**: Multiple merchants had transactions stuck in STARTED state — some resolved as merchant-raised requests
