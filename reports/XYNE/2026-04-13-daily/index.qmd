@@ -1,0 +1,285 @@
+---
+title: XYNE daily Workload Report — Xyne-Space (2026-04-13)
+date: 2026-04-13
+cadence: daily
+generated_at: 2026-04-13T11:30:50.092Z
+toc: true
+toc-depth: 3
+format: html
+project_code: XYNE
+project_name: Xyne-Space
+---
+
+## Summary
+
+**20 active tickets** in PR Review stage across 15 team members. **11 PAUSED tickets** with breached ETAs (all overdue by 42–106 days). **15 CRITICAL** and **50 HIGH** priority TODO tickets remain unassigned. The most urgent blocker is **PR #4926** which has an ACL Bypass Risk (HIGH SEVERITY) that needs immediate attention. **XYNE-704** (Files tab crashing) is CRITICAL priority and 106+ days overdue — requires escalation. No ETAs are set on any STARTED tickets, making delivery forecasting impossible.
+
+## Team Workload
+
+### Satvik Batra
+**Capacity:** MEDIUM (load: 2)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-12248 | Add unread DM counter to sidebar | PR Review | — | STARTED |
+| XYNE-12231 | Add rename channel option to modal | PR Review | — | ⚠ Build failed |
+
+**Blockers:**
+- XYNE-12231: Build failed with 1 test failing (134/135 passed) — needs fix
+
+---
+
+### Siraj Shaik
+**Capacity:** MEDIUM (load: 2)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-12084 | Message BOT | PR Review | — | STARTED |
+| XYNE-10434 | Custom Profile Picture & Editable Display Name | PR Review | — | STARTED |
+
+---
+
+### Abhinav Srivastava
+**Capacity:** HIGH (load: 1)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-12074 | For Electron app attachment downloads need an indicator | PR Review | — | STARTED |
+
+**Notes:** QA bot alerts on Apr 13 for `feature/indicatorForDownloadAttachment`. Expert in call analytics work.
+
+---
+
+### Archit Narayan
+**Capacity:** HIGH (load: 1)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-12278 | Fix creator unable to leave channel | PR Review | — | STARTED |
+
+**Notes:** Multiple build alerts today (Apr 13) for `fix/devqa-xyne-creatorCanLeave`.
+
+---
+
+### Amitava Chakrabarti
+**Capacity:** HIGH (load: 1)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-12292 | Fix mobile grouped attachment grid UI | PR Review | — | STARTED |
+
+**Notes:** Expert in navigation fixes and screenshot-related features. Good candidate for floating tab issues.
+
+---
+
+### Ayush Upadhyay
+**Capacity:** HIGH (load: 1)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-11909 | Add notification schedule and default reminder time | PR Review | — | ⚠ Build unstable |
+
+**Blockers:**
+- XYNE-11909: Build status UNSTABLE (all 135 tests passed but unstable status)
+
+---
+
+### Shailendra Pratap Singh
+**Capacity:** HIGH (load: 1)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-12149 | Optimize zero queries | PR Review | — | STARTED |
+
+---
+
+### Aditya Shekhar Tiwary
+**Capacity:** HIGH (load: 1)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-12282 | Drag and Drop to reschedule calls | PR Review | — | STARTED |
+
+**Notes:** Very active with multiple build alerts today for `feature/callCalendar` and `feature/dragndrop`.
+
+---
+
+### Piyush Kesharwani
+**Capacity:** HIGH (load: 1)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-12283 | Add board config control for managers | PR Review | — | STARTED |
+
+---
+
+### Rushikesh Wabale
+**Capacity:** HIGH (load: 1)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-12275 | Fix overlapping date UI elements | PR Review | — | STARTED |
+
+---
+
+### Yash Gupta
+**Capacity:** HIGH (load: 1)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-11583 | Update blocknote and blocknote-layout version | PR Review | — | STARTED |
+
+---
+
+### Ankur Mohan Abraham
+**Capacity:** HIGH (load: 1)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-11580 | Fix duplicate pill rendering in new chat | PR Review | — | STARTED |
+
+**Notes:** Mentioned in testing-claw on Apr 13 about agent leaderboard. SBX tracker coordination.
+
+---
+
+### Sheetal Lalwani
+**Capacity:** HIGH (load: 1)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-11579 | Dark mode minor fixes for book mark, ticket, channel | PR Review | — | STARTED |
+
+---
+
+### Om Thakur
+**Capacity:** HIGH (load: 1)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-12277 | Change sidebar color to blue | PR Review | — | STARTED |
+
+---
+
+### Shubham Dhamija
+**Capacity:** HIGH (load: 1)
+
+**Active Tickets:**
+
+| Ticket | Title | Stage | ETA | Status |
+|--------|-------|-------|-----|--------|
+| XYNE-11752 | Verify ticket creation feature | PR Review | — | STARTED |
+
+**Notes:** Expert in navigation-related fixes.
+
+---
+
+### Team Members with No STARTED Tickets (Available)
+| Name | Notes |
+|------|-------|
+| Radheyshree Agrawal | Expert in mobile scrolling fixes |
+| Navipriya S | Expert in native flows and voice-related work |
+| Mayank Bansal | Expert in call scheduling features |
+| Mohan Mishra | Expert in icon and screen positioning fixes |
+| Sayantan Paul | Expert in Group DM features |
+| ANUSHA D | ⚠ Silence risk — 1 STARTED ticket last updated 2+ weeks ago |
+| Aryan Pidiha | No STARTED tickets — may need assignment |
+
+## Unassigned Critical Tickets
+
+| Ticket | Title | Priority | Stage |
+|--------|-------|----------|-------|
+| XYNE-12289 | [Mobile] Fix content jumping while scrolling | CRITICAL | To be Picked Up |
+| XYNE-12263 | Voice enrollment flow for speaker identification | CRITICAL | To Do (ETA: 4/15) |
+| XYNE-12128 | Implement Call Feature Analytics | CRITICAL | To be Picked Up |
+| XYNE-11911 | Update sidebar color to blue for testing | CRITICAL | To be Picked Up |
+| XYNE-5643 | Fix ticket details mobile view bug | CRITICAL | To be Picked Up |
+| XYNE-5535 | Fix mobile layout for small display settings | CRITICAL | To be Picked Up |
+| XYNE-5146 | Fix attachment aspect ratio | CRITICAL | TO_DO |
+| XYNE-4389 | Show optional fields in the ticket details page | CRITICAL | TO_DO |
+| XYNE-3539 | Persist board filters during ticket navigation | CRITICAL | HUMAN_INTERVENTION |
+| XYNE-3540 | Additional Filter Fields in Boards | CRITICAL | TO_DO |
+| XYNE-1990 | Implement Kanban view for My tickets | CRITICAL | HUMAN_INTERVENTION |
+| XYNE-1972 | Reduce tickets page load latency | CRITICAL | TO_DO |
+| XYNE-1314 | Fix scrolling in create new DM user list | CRITICAL | TO_DO |
+| XYNE-1313 | Fix mobile scrolling on search screen | CRITICAL | TO_DO |
+
+## Blockers Needing Escalation
+
+- **PR #4926**: ACL Bypass Risk via Nested Queries (HIGH SEVERITY) — reported Apr 12. ACL restrictions only applied to top-level `where` clause. Recommend immediate security review.
+- **XYNE-704** (Files tab crashing): CRITICAL priority, 106+ days overdue (ETA: Dec 29, 2025). Stage: AI_PICKED_UP. Needs escalation.
+- **XYNE-820** (UI in ticket modal): 97 days overdue. Stage: Deployed but still PAUSED — may need cleanup.
+- **XYNE-871** (Drag Drop not working): 96 days overdue. Stage: TO_DO.
+- **XYNE-1295** (Thread replies not visible in mobile): 89 days overdue. Stage: AI_PICKED_UP.
+
+## Capacity Summary
+
+| Person | Active | Blocked | Weighted Load | Capacity |
+|--------|--------|---------|---------------|----------|
+| Satvik Batra | 2 | 0 | 2.0 | MEDIUM |
+| Siraj Shaik | 2 | 0 | 2.0 | MEDIUM |
+| Abhinav Srivastava | 1 | 0 | 1.0 | HIGH |
+| Archit Narayan | 1 | 0 | 1.0 | HIGH |
+| Amitava Chakrabarti | 1 | 0 | 1.0 | HIGH |
+| Ayush Upadhyay | 1 | 0 | 1.0 | HIGH |
+| Shailendra Pratap Singh | 1 | 0 | 1.0 | HIGH |
+| Aditya Shekhar Tiwary | 1 | 0 | 1.0 | HIGH |
+| Piyush Kesharwani | 1 | 0 | 1.0 | HIGH |
+| Rushikesh Wabale | 1 | 0 | 1.0 | HIGH |
+| Yash Gupta | 1 | 0 | 1.0 | HIGH |
+| Ankur Mohan Abraham | 1 | 0 | 1.0 | HIGH |
+| Sheetal Lalwani | 1 | 0 | 1.0 | HIGH |
+| Om Thakur | 1 | 0 | 1.0 | HIGH |
+| Shubham Dhamija | 1 | 0 | 1.0 | HIGH |
+| Radheyshree Agrawal | 0 | 0 | 0.0 | HIGH |
+| Navipriya S | 0 | 0 | 0.0 | HIGH |
+| Mayank Bansal | 0 | 0 | 0.0 | HIGH |
+| Mohan Mishra | 0 | 0 | 0.0 | HIGH |
+| Sayantan Paul | 0 | 0 | 0.0 | HIGH |
+
+## Assignment Suggestions
+
+| Ticket | Title | Priority | Suggested Assignee | Capacity | Rationale |
+|--------|-------|----------|--------------------|----------|-----------|
+| XYNE-12289 | [Mobile] Fix content jumping while scrolling | CRITICAL | Radheyshree Agrawal | HIGH (load: 0) | Expert: completed XYNE-706 (similar mobile scroll freeze issue) |
+| XYNE-12263 | Voice enrollment flow for speaker identification | CRITICAL | Navipriya S | HIGH (load: 0) | Expert: completed XYNE-9996, XYNE-5290, XYNE-11566 (native flows and voice work) |
+| XYNE-12128 | Implement Call Feature Analytics | CRITICAL | Abhinav Srivastava | HIGH (load: 1.0) | Expert: completed XYNE-8879 (call analytics bug fix) |
+| XYNE-12299 | Fix postbox icon flash on back navigation | HIGH | Amitava Chakrabarti | HIGH (load: 1.0) | Expert: completed XYNE-7035 (ticket navigation fixes) |
+| XYNE-12295 | Fix screenshot share focus issue in floating tab | HIGH | Amitava Chakrabarti | HIGH (load: 1.0) | Expert: completed XYNE-11759 (screenshot workflow features) |
+| XYNE-12290 | Fix WFH status display in group DMs | HIGH | Sayantan Paul | HIGH (load: 0) | Expert: completed XYNE-8868, XYNE-7558 (Group DM features) |
+
+> These are suggestions only. This agent does not modify tickets.
+
+## Process Improvements Recommended
+
+1. **Set ETAs on all STARTED tickets** — Currently none have ETAs, making delivery forecasting impossible.
+2. **Review PAUSED tickets** — 11 tickets with breached ETAs need triage. Some may be stale (e.g., XYNE-5794 shows "Merged" but still PAUSED).
+3. **Address XYNE-704 urgently** — CRITICAL ticket 106+ days overdue needs immediate attention.
+4. **Security review for PR #4926** — ACL Bypass Risk is a HIGH SEVERITY blocker affecting xyne-spaces.
