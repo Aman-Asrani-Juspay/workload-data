@@ -1,0 +1,128 @@
+---
+title: XYNE daily Workload Report — Xyne-Space (2026-04-14)
+date: 2026-04-14
+cadence: daily
+generated_at: 2026-04-14T10:57:01.429Z
+toc: true
+toc-depth: 3
+format: html
+project_code: XYNE
+project_name: Xyne-Space
+---
+
+## Summary
+
+The Xyne-Space project has **20 STARTED tickets** (all in PR Review stage) and **10 PAUSED tickets**, but notably **none have individual assignees listed** — suggesting collective ownership or a data visibility issue. **2 STARTED tickets have breached ETAs** (XYNE-871 and XYNE-5668, overdue by 67-97 days). There are **15 CRITICAL priority TODO tickets** and **50 HIGH priority TODO tickets** awaiting assignment. The team of 19 members all show HIGH capacity since no tickets are individually assigned. **Key action needed:** Investigate why STARTED/PAUSED tickets lack assignees, and urgently address the 2 severely overdue PR Review tickets.
+
+## Team Workload
+
+| Member Name | Capacity | Load | Active Tickets | Blockers |
+|-------------|----------|------|----------------|----------|
+| Harsh Sharma | HIGH | 0.0 | — | — |
+| Shivam Ashtikar | HIGH | 0.0 | — | — |
+| Nikunj Gupta | HIGH | 0.0 | — | — |
+| Satvik Batra | HIGH | 0.0 | — | — |
+| Devesh Rastogi | HIGH | 0.0 | — | — |
+| Ameer Noufil | HIGH | 0.0 | — | — |
+| Piyush Kesharwani | HIGH | 0.0 | — | — |
+| Parth Dogra | HIGH | 0.0 | — | — |
+| Prakhar Agarwal | HIGH | 0.0 | — | — |
+| Amrit Raj | HIGH | 0.0 | — | — |
+| Naman Kalkhuria | HIGH | 0.0 | — | — |
+| Sithaarth M | HIGH | 0.0 | — | — |
+| Aman Asrani | HIGH | 0.0 | — | — |
+| Santhosh S | HIGH | 0.0 | — | — |
+| Aravind Sethuraj | HIGH | 0.0 | — | — |
+| Ankur Mohan Abraham | HIGH | 0.0 | — | — |
+| Navipriya S | HIGH | 0.0 | — | — |
+| Rahul Kumar | HIGH | 0.0 | — | — |
+| Umesh Patil | HIGH | 0.0 | — | — |
+
+> **Note:** All 20 STARTED tickets are in "PR Review" stage with no individual assignees. This may indicate collective code review ownership or a data visibility issue. All team members show HIGH capacity because no STARTED tickets are assigned to individuals.
+
+## STARTED Tickets (PR Review Queue)
+
+| Ticket | Title | Priority | Stage | ETA |
+|--------|-------|----------|-------|-----|
+| XYNE-11930 | Move common code between native app and dashboard to shared folder | LOW | PR Review | — |
+| XYNE-12299 | Flicker Fix postbox icon flash on back navigation | HIGH | PR Review | — |
+| XYNE-12336 | Add group DM feature to mobile | LOW | PR Review | — |
+| XYNE-11680 | Add Logs Inspector | LOW | PR Review | — |
+| XYNE-12234 | Fix channel and DM mention route | LOW | PR Review | — |
+| XYNE-12142 | Google Workspace MCP Integration for BD Team | HIGH | PR Review | — |
+| XYNE-12253 | Fix UI break on +2 labels in Kanban view | MEDIUM | PR Review | — |
+| XYNE-12341 | MS integration | LOW | PR Review | — |
+| XYNE-11909 | Add notification schedule and default reminder time | LOW | PR Review | — |
+| XYNE-12340 | Add context for PR comment workflow re-run | LOW | PR Review | — |
+| XYNE-12225 | Fix native app iOS UI bugs | LOW | PR Review | — |
+| XYNE-12331 | profile click feature in native | LOW | PR Review | — |
+| XYNE-12268 | Fix disappearing 3-dot menu in group view | LOW | PR Review | — |
+| XYNE-12285 | Fix archive channel UI | LOW | PR Review | — |
+| XYNE-871 | Drag Drop is not working sometimes in status view | MEDIUM | PR Review | ⚠ Jan 7, 2026 (97 days overdue) |
+| XYNE-5668 | Search UX Improvements | LOW | IN_REVIEW | ⚠ Feb 6, 2026 (67 days overdue) |
+| XYNE-12324 | Send refresh token in response | LOW | PR Review | — |
+| XYNE-12328 | Fix word split into 2 lines separation | HIGH | PR Review | — |
+| XYNE-12334 | Change sidebar color to blue | LOW | PR Review | — |
+| XYNE-12333 | Update sidebar color to red theme | LOW | PR Review | — |
+
+## PAUSED Tickets (Likely Blocked)
+
+| Ticket | Title | Stage | ETA |
+|--------|-------|-------|-----|
+| XYNE-6432 | Create test ticket | ON_MERCHANT | Feb 12, 2026 |
+| XYNE-8223 | Test ticket for Amrit | ON_JUSPAY | Feb 19, 2026 |
+| XYNE-6451 | Channel Settings in Channel Info Modal (Slack-like) | Paused | Feb 12, 2026 |
+| XYNE-9409 | Consistency chat experience across all conversations | Paused | Feb 26, 2026 |
+| XYNE-902 | wgddugu | AI_PICKED_UP | Mar 2, 2026 |
+| XYNE-5646 | Add update button when new bundle is detected | To be Picked Up | Feb 5, 2026 |
+| XYNE-5794 | Differentiate message senders visually in chat | Merged | Feb 9, 2026 |
+| XYNE-704 | Files tab crashing | AI_PICKED_UP | ⚠ Dec 29, 2025 (CRITICAL - overdue) |
+| XYNE-820 | UI in ticket modal | Deployed | Jan 6, 2026 |
+| XYNE-1295 | Thread replies not visible in mobile | AI_PICKED_UP | Jan 14, 2026 |
+
+## Unassigned Critical Tickets
+
+| Ticket | Title | Priority | Stage |
+|--------|-------|----------|-------|
+| XYNE-12289 | [Mobile] Fix content jumping while scrolling | CRITICAL | To be Picked Up |
+| XYNE-12263 | Voice enrollment flow for speaker identification | CRITICAL | To Do |
+| XYNE-12128 | Implement Call Feature Analytics | CRITICAL | To be Picked Up |
+| XYNE-11911 | Update sidebar color to blue for testing | CRITICAL | To be Picked Up |
+| XYNE-5643 | Fix ticket details mobile view bug | CRITICAL | To be Picked Up |
+| XYNE-5535 | Fix mobile layout for small display settings | CRITICAL | To be Picked Up |
+| XYNE-5146 | Fix attachment aspect ratio | CRITICAL | TO_DO |
+| XYNE-4389 | Show optional fields in the ticket details page | CRITICAL | TO_DO |
+| XYNE-3539 | Persist board filters during ticket navigation | CRITICAL | HUMAN_INTERVENTION |
+| XYNE-3540 | Additional Filter Fields in Boards | CRITICAL | TO_DO |
+| XYNE-1990 | Implement Kanban view for My tickets | CRITICAL | HUMAN_INTERVENTION |
+| XYNE-1972 | Reduce tickets page load latency | CRITICAL | TO_DO |
+| XYNE-1314 | Fix scrolling in create new DM user list | CRITICAL | TO_DO |
+| XYNE-1313 | Fix mobile scrolling on search screen | CRITICAL | TO_DO |
+| XYNE-1300 | AI Test | CRITICAL | TO_DO |
+
+## Blockers Needing Escalation
+
+- **XYNE-871 (Drag Drop issue)**: In PR Review since Jan 7, 2026 — **97 days overdue**. Needs urgent review completion or reassignment.
+- **XYNE-5668 (Search UX Improvements)**: In IN_REVIEW since Feb 6, 2026 — **67 days overdue**. May be stuck waiting for feedback.
+- **XYNE-704 (Files tab crashing)**: CRITICAL ticket, PAUSED since Dec 29, 2025. This is a crashing bug that needs immediate attention.
+- **Agent Installation Blocker**: Non-admin users cannot test newly created agents in Xyne Spaces — requires admin access on `XYNE_APP` resource. This blocks development workflow. (@infra-lead escalation recommended)
+
+## Assignment Suggestions
+
+| Ticket | Title | Priority | Suggested Assignee | Capacity | Rationale |
+|--------|-------|----------|--------------------|----------|-----------|
+| XYNE-12289 | [Mobile] Fix content jumping while scrolling | CRITICAL | Rahul Kumar | HIGH (load: 0) | Expert: completed XYNE-1292 (New message scroll feature) - similar mobile scrolling work |
+| XYNE-12263 | Voice enrollment flow for speaker identification | CRITICAL | Any available | HIGH (load: 0) | No prior expertise found in team; all members have capacity |
+| XYNE-12128 | Implement Call Feature Analytics | CRITICAL | Any available | HIGH (load: 0) | No direct match; related work by Abhinav Srivastava (not in current team list) |
+| XYNE-5643 | Fix ticket details mobile view bug | CRITICAL | Any available | HIGH (load: 0) | Mobile UI expertise: Mihir Jaiswal, Amitava Chakrabarti (not in current team list) |
+| XYNE-5535 | Fix mobile layout for small display settings | CRITICAL | Any available | HIGH (load: 0) | All team members have HIGH capacity; no specific expert found |
+
+> **Note:** Many COMPLETED tickets with relevant expertise (mobile scrolling, call analytics) were completed by team members not in the current active member list (Radheyshree Agrawal, Abhinav Srivastava, etc.). Current team members all have HIGH capacity and can pick up any ticket.
+
+## Active Blockers from Recent Messages
+
+Based on messages from the last 2 days in `#testing-claw`:
+- **Agent approval workflow blocker**: "real blocker is until admin approves you have no way to even test it" — non-admins cannot install agents in Xyne Spaces
+- **Waiting on**: Repository clarification for `feature/deploy-xyneclaw` branch
+
+> These are suggestions only. This agent does not modify tickets.
